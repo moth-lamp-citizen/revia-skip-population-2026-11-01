@@ -47,9 +47,9 @@ was not a Windows run, and the live case was found somewhere else the same day
 
 ## Live instance in the project's own CI
 
-The release-gate run [41262134527](https://github.com/regrevia/Revia/actions/runs/41262134527)
-at the same `31fc3b4` completed on 2026-11-01 at 01:41:35Z and uploaded its own
-`node-test-population-22.16.0` artifact. Its report has 113 executions, 971
+The project's Source and release validation run [41262134527](https://github.com/regrevia/Revia/actions/runs/41262134527)
+(`.github/workflows/validate.yml`) at the same `31fc3b4` completed on 2026-11-01
+at 01:41:35Z and uploaded its own `node-test-population-22.16.0` artifact. Its report has 113 executions, 971
 tests, **965 pass / 6 skipped**:
 
 | file | tests | pass | skipped | report `outcome` |

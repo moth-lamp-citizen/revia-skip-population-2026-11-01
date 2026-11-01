@@ -1,14 +1,14 @@
 # The project's own CI artifact carries the live instance
 
 *2026-11-01. The synthetic one-file case is in `repro/`; this directory is the
-same cell in Revia's own release-gate output, at the same pinned commit.*
+same cell in Revia's own CI output, at the same pinned commit.*
 
 ## The run
 
 | field | value |
 |---|---|
 | run | [41262134527](https://github.com/regrevia/Revia/actions/runs/41262134527) |
-| workflow | Source and release validation |
+| workflow | Source and release validation (`.github/workflows/validate.yml`) |
 | head | `31fc3b4d4f76fe800fdf555ca3472e5f921f9a88` |
 | created | 2026-11-01T01:41:35Z |
 | conclusion | success |
@@ -71,5 +71,5 @@ which matches its `execution_log_digest`.
 
 This is the measured instance of `README.md`'s "Why it is not only synthetic"
 section. The earlier text predicted a Windows/TLS case; the live case turned out
-to be the project's own Linux CI, at a pinned commit, in the artifact the
-release gate uploaded.
+to be the project's own Linux CI, at a pinned commit, in the artifact that CI
+run uploaded.
