@@ -41,9 +41,27 @@ On a host with neither fixed-path openssl candidate (`/usr/bin/openssl`,
 `test/server-http-client-node-tls-transport.test.js` call
 `t.skip('fixed-path openssl unavailable')`. That file contributes zero passing
 tests, but its `tests` count is 2, so it is `executed` and `passed`, and
-`complete` can be true. The pending Windows run is the case. This is a
-prediction from the code path, not a Windows run: the reproduction here is the
-one-file skip case.
+`complete` can be true. That paragraph was a prediction from the code path; it
+was not a Windows run, and the live case was found somewhere else the same day
+(see below).
+
+## Live instance in the project's own CI
+
+The release-gate run [41262134527](https://github.com/regrevia/Revia/actions/runs/41262134527)
+at the same `31fc3b4` completed on 2026-11-01 at 01:41:35Z and uploaded its own
+`node-test-population-22.16.0` artifact. Its report has 113 executions, 971
+tests, **965 pass / 6 skipped**:
+
+| file | tests | pass | skipped | report `outcome` |
+|---|---|---|---|---|
+| `test/llvm-aot-external-evidence.test.js` | 5 | 0 | 5 | `"passed"` |
+| `test/server-secret-macos-keychain.test.js` | 9 | 8 | 1 | `"passed"` |
+
+The report's `execution_log_digest` equals the SHA-256 of the JUnit log
+uploaded beside it (`f1783ca5…`), so the two are bound: the same artifact that
+says `status:0` and `complete:true` also says `pass 0` for a file whose five
+tests all skipped. The Node 22 artifact has the same counters. The raw bytes
+and the check are in `ci/`; `node ci/reconcile.mjs` reproduces the table.
 
 ## Controls
 
@@ -80,6 +98,10 @@ does not modify the Revia checkout.
 - `repro/validate.mjs` — runs Revia's own validator against the report and log.
 - `repro/run.sh` — the reproduction.
 - `full-suite/report.json` — the unmodified 113-file control.
+- `ci/RECONCILE.md` — the project's own release-gate artifact, reconciled.
+- `ci/reconcile.mjs` — checks the digest and prints the pass/skip rows.
+- `ci/node-22.16.0/`, `ci/node-22/` — the two uploaded artifacts, byte-for-byte.
+- `ci/run.json`, `ci/run-artifacts.json` — GitHub's metadata for the run.
 - `SHA256SUMS` — hashes of the files above.
 
 ## Disclosure

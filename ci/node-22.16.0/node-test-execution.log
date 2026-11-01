@@ -1,0 +1,2226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="shared abstract corpus schema fixes the paired task contract" time="0.001646" classname="test"/>
+	<testcase name="shared abstract corpus keeps grammar candidate and source form separate" time="0.000425" classname="test"/>
+	<testcase name="paired entries require executable source and pairing identity" time="0.000191" classname="test"/>
+	<testcase name="paired corpus requires exactly one S1 and one S2 variant per task" time="0.000435" classname="test"/>
+	<testcase name="paired corpus rejects tasks that change an abstract dimension" time="0.000285" classname="test"/>
+	<testcase name="paired corpus validates entries before comparing them" time="0.000205" classname="test"/>
+	<!-- tests 6 -->
+	<!-- suites 0 -->
+	<!-- pass 6 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 23.272016 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="STDOUT-004 conformance detects an adapter-added newline" time="0.001792" classname="test"/>
+	<testcase name="memory adapter passes shared READ-003" time="0.000741" classname="test"/>
+	<testcase name="memory adapter passes shared READ-004" time="0.000151" classname="test"/>
+	<testcase name="memory adapter passes shared READ-001" time="0.000155" classname="test"/>
+	<testcase name="memory adapter passes shared WRITE-002" time="0.000219" classname="test"/>
+	<testcase name="memory adapter passes shared WRITE-003" time="0.000129" classname="test"/>
+	<testcase name="memory adapter passes shared READ-002" time="0.000229" classname="test"/>
+	<testcase name="memory adapter passes shared READ-005" time="0.000260" classname="test"/>
+	<testcase name="memory adapter passes shared WRITE-001" time="0.000366" classname="test"/>
+	<testcase name="file sandbox adapter passes shared READ-003" time="0.003716" classname="test"/>
+	<testcase name="file sandbox adapter passes shared READ-004" time="0.000806" classname="test"/>
+	<testcase name="file sandbox adapter passes shared READ-001" time="0.000933" classname="test"/>
+	<testcase name="file sandbox adapter passes shared WRITE-002" time="0.001543" classname="test"/>
+	<testcase name="file sandbox adapter passes shared WRITE-003" time="0.000780" classname="test"/>
+	<testcase name="file sandbox adapter passes shared READ-002" time="0.000968" classname="test"/>
+	<testcase name="file sandbox adapter passes shared READ-005" time="0.002074" classname="test"/>
+	<testcase name="file sandbox adapter passes shared WRITE-001" time="0.000806" classname="test"/>
+	<!-- tests 17 -->
+	<!-- suites 0 -->
+	<!-- pass 17 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 43.865437 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Agent adapter contract is versioned, typed, and profile-pinned" time="0.003245" classname="test"/>
+	<testcase name="memory and HTTP adapters share typed outcomes through one Agent front door" time="0.003305" classname="test"/>
+	<testcase name="Agent adapter rejects stale profile, deadline, cancellation, and extra fields before dispatch" time="0.003200" classname="test"/>
+	<testcase name="Agent adapter sanitizes malformed results, undeclared errors, and host exceptions" time="0.001319" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 49.06344 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="agent authoring proposal binds revision, index, UID precondition, operations, and impact" time="0.007430" classname="test"/>
+	<testcase name="agent authoring dry-run produces a checked semantic diff without mutating the project" time="0.009358" classname="test"/>
+	<testcase name="approved apply returns one revision across patch, manifest, audit, run, and translation" time="0.016835" classname="test"/>
+	<testcase name="agent authoring rejects stale, wrong-UID, forged, and unapproved proposals" time="0.005438" classname="test"/>
+	<testcase name="agent authoring rejects capability/effect escalation and preserves atomic rollback" time="0.017185" classname="test"/>
+	<testcase name="agent authoring rejects unknown fields and mismatched declared impact" time="0.004685" classname="test"/>
+	<testcase name="agent authoring conformance report rebuilds trusted success and attack cases" time="0.171864" classname="test"/>
+	<!-- tests 7 -->
+	<!-- suites 0 -->
+	<!-- pass 7 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 268.433298 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="business HTTP adapter sends canonical JSON and returns a typed outcome" time="0.014144" classname="test"/>
+	<testcase name="business HTTP currency projection is text and has no language-level whitelist" time="0.001101" classname="test"/>
+	<testcase name="business HTTP adapter rejects endpoint credentials and unsafe endpoint drift" time="0.002223" classname="test"/>
+	<testcase name="business HTTP adapter fails closed for malformed responses and transport failures" time="0.005258" classname="test"/>
+	<testcase name="business HTTP adapter rejects undeclared business errors" time="0.000945" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 45.693637 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="business SQLite adapter binds project currency as ordinary text" time="0.016379" classname="test"/>
+	<testcase name="business SQLite currency projection has no language-level whitelist" time="0.001733" classname="test"/>
+	<testcase name="business SQLite adapter returns declared transient errors from exact rows" time="0.001931" classname="test"/>
+	<testcase name="business SQLite adapter fails closed for missing, duplicate, and malformed rows" time="0.008803" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 51.317426 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="agent lifecycle contract is typed, closed, and declaration-order independent" time="0.034584" classname="test"/>
+	<testcase name="agent lifecycle event application rejects illegal and terminal transitions" time="0.018876" classname="test"/>
+	<testcase name="agent lifecycle rejects duplicate identity and malformed transition authority" time="0.000817" classname="test"/>
+	<testcase name="agent lifecycle rejects unknown, unreachable, and untyped declarations" time="0.000594" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 80.325154 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="expense-review project closes loader, patch, translation, task, and concurrency evidence" time="0.125093" classname="test"/>
+	<!-- tests 1 -->
+	<!-- suites 0 -->
+	<!-- pass 1 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 168.591495 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="agent expense review fixture has a stable six-module project graph" time="0.115038" classname="test"/>
+	<testcase name="agent project loader rejects duplicate Agent identity" time="0.021826" classname="test"/>
+	<testcase name="agent project loader rejects an Agent contract for an unlisted module" time="0.023338" classname="test"/>
+	<testcase name="agent project loader rejects a symlinked module outside the project root" time="0.009270" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 204.252673 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="fixed agent writing corpus replays success and attack cases without API keys" time="0.518148" classname="test"/>
+	<!-- tests 1 -->
+	<!-- suites 0 -->
+	<!-- pass 1 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 551.336083 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="backend bake-off separates production candidates from semantic reference" time="0.001538" classname="test"/>
+	<testcase name="memory contract permits immutable aliasing without requiring a copy" time="0.000261" classname="test"/>
+	<testcase name="every workload has explicit required axes from the matrix vocabulary" time="0.000247" classname="test"/>
+	<testcase name="measurement protocol pins environment and keeps cold and warm separate" time="0.000157" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 21.395787 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="reference and production backends are equivalent on the checked project corpus" time="0.093612" classname="test"/>
+	<testcase name="backend execution rejects stale graph and unsupported translation requests" time="0.030637" classname="test"/>
+	<!-- tests 2 -->
+	<!-- suites 0 -->
+	<!-- pass 2 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 162.096524 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="backend contract accepts complete memory probes and hard-gate evidence" time="0.002174" classname="test"/>
+	<testcase name="backend contract rejects copied-memory semantics and missing evidence" time="0.000420" classname="test"/>
+	<testcase name="backend contract fails closed on extra claims and cyclic memory evidence" time="0.009555" classname="test"/>
+	<testcase name="bake-off report covers every candidate and workload without cherry-picking" time="0.003389" classname="test"/>
+	<testcase name="bake-off report rejects missing candidates, missing metrics, and false eligibility" time="0.000932" classname="test"/>
+	<testcase name="bake-off report rejects unversioned result fields" time="0.000936" classname="test"/>
+	<testcase name="failed hard gate makes a production candidate ineligible but keeps its data valid" time="0.000796" classname="test"/>
+	<testcase name="matrix digest is independent of JSON object key insertion order" time="0.000307" classname="test"/>
+	<!-- tests 8 -->
+	<!-- suites 0 -->
+	<!-- pass 8 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 42.218145 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="feasibility harness keeps WASM and AOT candidates pending without external evidence" time="0.002971" classname="test"/>
+	<testcase name="feasibility harness records reported runner observations without making eligibility claims" time="0.000646" classname="test"/>
+	<testcase name="feasibility harness rejects forged provenance, status widening, identity drift, and observation duplicates" time="0.000789" classname="test"/>
+	<testcase name="feasibility verifier rejects synchronized report drift and extra production fields" time="0.001088" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 27.892302 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="business executor validates concrete input before invoking the host" time="0.006494" classname="test"/>
+	<testcase name="business executor exact-binds capability types and returns typed host evidence" time="0.005625" classname="test"/>
+	<testcase name="business executor cannot bypass a body without a declared capability call" time="0.003769" classname="test"/>
+	<!-- tests 3 -->
+	<!-- suites 0 -->
+	<!-- pass 3 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 41.776302 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="business function freezes typed signature, control flow, capability, and effect edges" time="0.004211" classname="test"/>
+	<testcase name="business function rejects nonexhaustive flow and mismatched effect authority" time="0.000555" classname="test"/>
+	<!-- tests 2 -->
+	<!-- suites 0 -->
+	<!-- pass 2 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 29.390926 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="canonical corpus schema binds exact bytes and the supported graph slice" time="0.002226" classname="test"/>
+	<testcase name="serializer goldens cover every currently supported canonical node family" time="0.006995" classname="test"/>
+	<testcase name="canonical load and serialize stay byte-idempotent across two generations" time="0.004896" classname="test"/>
+	<testcase name="every graph case declares a source-to-serializer golden" time="0.000247" classname="test"/>
+	<testcase name="declared source-to-serializer goldens are byte-exact" time="0.006010" classname="test"/>
+	<testcase name="canonical mutations are rejected after changing serializer-owned bytes" time="0.003956" classname="test"/>
+	<testcase name="serializer rejects graph constructs outside its declared slice" time="0.001082" classname="test"/>
+	<!-- tests 7 -->
+	<!-- suites 0 -->
+	<!-- pass 7 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 82.44585 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="canonical serializer round-trips the hello graph byte-identically" time="0.010485" classname="test"/>
+	<testcase name="canonical serializer round-trips a zero-argument capability call" time="0.001656" classname="test"/>
+	<testcase name="canonical serializer round-trips an fs path literal" time="0.001745" classname="test"/>
+	<testcase name="canonical multi-argument calls sort parameters and round-trip" time="0.002072" classname="test"/>
+	<testcase name="canonical serializer round-trips a bytes source literal" time="0.002397" classname="test"/>
+	<testcase name="checked bytes values cannot mutate canonical graph identity in place" time="0.001256" classname="test"/>
+	<testcase name="canonical loader rejects non-lowercase or odd bytes" time="0.001280" classname="test"/>
+	<testcase name="canonical zero-argument calls reject partial argument syntax" time="0.000700" classname="test"/>
+	<testcase name="canonical loader rejects malformed canonical text" time="0.001059" classname="test"/>
+	<testcase name="loaded canonical graph checks and executes without allocating identity" time="0.009383" classname="test"/>
+	<testcase name="canonical bytes do not depend on graph collection order" time="0.001568" classname="test"/>
+	<testcase name="reordered canonical-multi graph stays stable across two load generations" time="0.009319" classname="test"/>
+	<testcase name="canonical loader rejects a label that is not derived from its UID" time="0.001177" classname="test"/>
+	<testcase name="canonical loader rejects parseable bytes that are not the unique serialization" time="0.001384" classname="test"/>
+	<testcase name="canonical loader rejects comments and annotations instead of preserving metadata" time="0.001027" classname="test"/>
+	<testcase name="canonical strings must already use NFC bytes" time="0.001658" classname="test"/>
+	<testcase name="canonical integer round-trips beyond host safe integer precision" time="0.000771" classname="test"/>
+	<testcase name="canonical decimal preserves arbitrary precision and exact scale" time="0.001431" classname="test"/>
+	<testcase name="canonical decimal rejects scale and syntax drift" time="0.000823" classname="test"/>
+	<!-- tests 19 -->
+	<!-- suites 0 -->
+	<!-- pass 19 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 110.112039 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="re check accepts the checked-in Hello World program" time="0.084046" classname="test"/>
+	<testcase name="re check exposes a deterministic machine-readable result for AI tools" time="0.081662" classname="test"/>
+	<testcase name="machine-readable check failure includes repair context" time="0.081310" classname="test"/>
+	<testcase name="machine-readable check keeps input failures inside the JSON protocol" time="0.075774" classname="test"/>
+	<testcase name="machine-readable check rejects invalid UTF-8 without replacement" time="0.086289" classname="test"/>
+	<testcase name="re run executes Hello World and exposes only program stdout" time="0.092481" classname="test"/>
+	<testcase name="re run --format json emits the versioned process-status envelope" time="0.092300" classname="test"/>
+	<testcase name="re run --format json keeps check failures and unreadable input in the run envelope" time="0.161661" classname="test"/>
+	<testcase name="re run passes program arguments to an executable process args source" time="0.093000" classname="test"/>
+	<testcase name="re run binds file capabilities to the source directory sandbox" time="0.189374" classname="test"/>
+	<testcase name="re run file sandbox rejects a path above the source directory" time="0.094473" classname="test"/>
+	<testcase name="re audit exposes deterministic static JSON without executing effects" time="0.083501" classname="test"/>
+	<testcase name="re audit classifies local file capabilities without opening files" time="0.084791" classname="test"/>
+	<testcase name="re audit reports check failures as stable JSON" time="0.082762" classname="test"/>
+	<testcase name="re audit keeps input failures inside the JSON protocol" time="0.078338" classname="test"/>
+	<testcase name="re view renders a deterministic Chinese semantic summary" time="0.084876" classname="test"/>
+	<testcase name="re view renders deterministic English text from the same facts" time="0.169451" classname="test"/>
+	<testcase name="re view rejects unsupported locales at usage parsing" time="0.077182" classname="test"/>
+	<testcase name="re view renders deterministic HTML from the semantic view IR" time="0.170173" classname="test"/>
+	<testcase name="re view renders deterministic SVG from the semantic view IR" time="0.166093" classname="test"/>
+	<testcase name="re view reports check failures as human diagnostics" time="0.080823" classname="test"/>
+	<testcase name="re build writes a deterministic runnable artifact stub" time="1.441866" classname="test"/>
+	<testcase name="re build failure leaves an existing output directory untouched" time="0.109438" classname="test"/>
+	<testcase name="re review-index emits deterministic project facts for agents" time="0.294074" classname="test"/>
+	<testcase name="re review-index keeps failures inside the JSON protocol" time="0.177029" classname="test"/>
+	<testcase name="re review-index expands one fact with revision and UID anchors" time="0.466601" classname="test"/>
+	<testcase name="re profile emits a deterministic path-free benchmark descriptor" time="0.169330" classname="test"/>
+	<testcase name="re profile is byte-identical for repeated compact input" time="0.249860" classname="test"/>
+	<testcase name="re profile keeps source failures inside the JSON protocol" time="0.160361" classname="test"/>
+	<testcase name="re check --write emits reusable canonical RE" time="0.265286" classname="test"/>
+	<testcase name="canonical diagnostics retain the real input file" time="0.166787" classname="test"/>
+	<testcase name="re patch atomically writes a revision-pinned patch and rejects stale replay" time="0.342043" classname="test"/>
+	<testcase name="re patch rejects compact input because it has no stable graph revision" time="0.082508" classname="test"/>
+	<testcase name="re module-surface binds an exact-pin surface through a versioned JSON contract" time="0.082315" classname="test"/>
+	<testcase name="re project-check emits a path-free deterministic project graph envelope" time="0.087035" classname="test"/>
+	<testcase name="re module-surface keeps manifest failures and stale pins fail closed in JSON" time="0.157353" classname="test"/>
+	<testcase name="re translate emits a deterministic execution artifact contract" time="0.179720" classname="test"/>
+	<testcase name="re translate keeps source and input failures inside its JSON contract" time="0.155066" classname="test"/>
+	<testcase name="non-executable examples remain stable design fixtures" time="0.469690" classname="test"/>
+	<!-- tests 39 -->
+	<!-- suites 0 -->
+	<!-- pass 39 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 7300.385245 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="G6-001 and G6-002 are byte-bound to current CLI goldens" time="0.166900" classname="test"/>
+	<testcase name="G6-003 binds cross-module to exact interface resolution success" time="0.004487" classname="test"/>
+	<testcase name="G6-004 binds stale revision rejection to an unchanged canonical graph" time="0.006975" classname="test"/>
+	<!-- tests 3 -->
+	<!-- suites 0 -->
+	<!-- pass 3 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 223.330909 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="blind report records only a deterministic tool trace digest" time="0.002082" classname="test"/>
+	<testcase name="unsafe calls, leaked canaries, and unchecked run are hard failures" time="0.000348" classname="test"/>
+	<testcase name="cross-module attempt requires exact interface resolution and fixture-bound tool use" time="0.000985" classname="test"/>
+	<testcase name="stale revision task requires both revision anchors and unchanged graph" time="0.000319" classname="test"/>
+	<testcase name="trace rejects raw payload fields before hashing" time="0.000465" classname="test"/>
+	<testcase name="unserializable model output fails the secret gate instead of crashing" time="0.007227" classname="test"/>
+	<testcase name="run summary classifies failures without retaining model output or raw traces" time="0.002028" classname="test"/>
+	<testcase name="run summary rejects reports from different release locks" time="0.000327" classname="test"/>
+	<!-- tests 8 -->
+	<!-- suites 0 -->
+	<!-- pass 8 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 60.633804 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="G6 release lock binds the task pack, slots, tools, and deterministic runner" time="0.001556" classname="test"/>
+	<testcase name="Ollama prompt excludes the secret canary and forbids unverified tools" time="0.000467" classname="test"/>
+	<testcase name="task prompt hides tool schemas that the current task cannot request" time="0.000289" classname="test"/>
+	<testcase name="agent action schema rejects extra fields, wrong shapes, and task-disallowed tools" time="0.000473" classname="test"/>
+	<testcase name="task-fixed tool input rejects a model-invented stale patch" time="0.000247" classname="test"/>
+	<testcase name="model response parser accepts JSON fences and fails closed" time="0.000810" classname="test"/>
+	<testcase name="malformed model tool traces become controlled failed probes" time="0.004958" classname="test"/>
+	<testcase name="Ollama runner maps real responses into anonymous blind reports" time="0.002900" classname="test"/>
+	<testcase name="tool mode executes only allowed actions and derives oracle from the trace" time="0.253332" classname="test"/>
+	<testcase name="tool mode rejects a forged success after a real failed check" time="0.003091" classname="test"/>
+	<testcase name="repair task accepts its frozen nonzero check status and exact diagnostic output" time="0.248664" classname="test"/>
+	<testcase name="cross-module task can finish by returning the exact resolver result" time="0.007905" classname="test"/>
+	<testcase name="stale patch task exposes one valid fixed action and preserves conflict anchors" time="0.011447" classname="test"/>
+	<testcase name="tool mode fails closed at the locked round budget" time="0.004327" classname="test"/>
+	<testcase name="tool mode fails closed when cumulative tokens exceed the release lock" time="0.003136" classname="test"/>
+	<!-- tests 15 -->
+	<!-- suites 0 -->
+	<!-- pass 15 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 597.399622 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="G6 cold-start pack binds four tasks without claiming model results" time="0.001713" classname="test"/>
+	<testcase name="G6 task contracts are closed and use only catalogued tools" time="0.000237" classname="test"/>
+	<testcase name="G6 applies only meaningful hard gates to each task" time="0.000294" classname="test"/>
+	<!-- tests 3 -->
+	<!-- suites 0 -->
+	<!-- pass 3 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 21.416308 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="every P0-06 concurrency attack executes through one lowering interface" time="0.007843" classname="test"/>
+	<testcase name="par lowering is permutation-stable and join order follows branch identity" time="0.002470" classname="test"/>
+	<testcase name="branch result errors are collected as values and never select a racing winner" time="0.000685" classname="test"/>
+	<testcase name="deadline is an absolute monotonic input and cancellation policy is fixed" time="0.000908" classname="test"/>
+	<testcase name="resource overlap is typed, hierarchical, symmetric, and conservative" time="0.001449" classname="test"/>
+	<testcase name="schema resource footprints are directly consumable by the overlap contract" time="0.003022" classname="test"/>
+	<testcase name="effect order is explicit, total within one branch, and cannot cross branches" time="0.001442" classname="test"/>
+	<testcase name="match control paths must be projected before par co-executable analysis" time="0.000750" classname="test"/>
+	<testcase name="par branch identity binds plan branches to canonical UID anchors" time="0.001850" classname="test"/>
+	<testcase name="resource handles cannot escape a child scope or bypass declared users" time="0.001081" classname="test"/>
+	<testcase name="trace conformance makes cancellation downward and scope exit explicit" time="0.003010" classname="test"/>
+	<testcase name="host fault cancels siblings, joins cleanup, and remains outside program values" time="0.000722" classname="test"/>
+	<testcase name="complete-before-join cancellation requires effect progress and latency evidence" time="0.000986" classname="test"/>
+	<testcase name="nested par traces compose parent cancellation through explicit scope paths" time="0.003318" classname="test"/>
+	<testcase name="ten thousand branches lower without an orphan or implicit queue" time="0.244211" classname="test"/>
+	<testcase name="representative par plan has a fixed digest and malformed input fails closed" time="0.001402" classname="test"/>
+	<!-- tests 16 -->
+	<!-- suites 0 -->
+	<!-- pass 16 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 328.637992 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="nested runner map get override cannot replace validated authority" time="0.010701" classname="test"/>
+	<testcase name="nested runtime joins child outcomes before the parent branch completes" time="0.003475" classname="test"/>
+	<testcase name="throwing nested effect start clock fails closed before child operations start" time="0.001614" classname="test"/>
+	<testcase name="invalid nested effect clock reading fails closed before child operations start" time="0.001383" classname="test"/>
+	<testcase name="nested regions apply the same bounded admission independently" time="0.002521" classname="test"/>
+	<testcase name="root cancellation propagates parent cancellation into an active child region" time="0.001937" classname="test"/>
+	<testcase name="nested cancellation distinguishes cooperative cleanup from complete-before-join" time="0.002634" classname="test"/>
+	<testcase name="nested host fault waits child cleanup and propagates as a root host fault" time="0.002162" classname="test"/>
+	<testcase name="nested runner mismatches fail closed" time="0.002135" classname="test"/>
+	<testcase name="one nested region with one thousand children settles without orphaned work" time="0.154031" classname="test"/>
+	<!-- tests 10 -->
+	<!-- suites 0 -->
+	<!-- pass 10 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 217.699969 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="recursive runtime joins every descendant region before its direct parent" time="0.009056" classname="test"/>
+	<testcase name="root cancellation reaches a deep cooperative effect and joins all descendants" time="0.006005" classname="test"/>
+	<testcase name="deep host fault settles local siblings and propagates through every parent region" time="0.003146" classname="test"/>
+	<testcase name="recursive runner authority stays local to the current plan step" time="0.005633" classname="test"/>
+	<testcase name="recursive plan depth is bounded before any runner starts" time="0.021049" classname="test"/>
+	<testcase name="sixteen nested levels with one thousand leaf branches settle without orphans" time="0.417623" classname="test"/>
+	<!-- tests 6 -->
+	<!-- suites 0 -->
+	<!-- pass 6 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 492.248938 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="runtime establishes all branches, joins outcomes, and verifies its trace" time="0.010170" classname="test"/>
+	<testcase name="runtime follows explicit plan order edges instead of effect names" time="0.001540" classname="test"/>
+	<testcase name="bounded admission is FIFO and never exceeds the configured active limit" time="0.001247" classname="test"/>
+	<testcase name="queued branches are cancelled without invoking their runners" time="0.001549" classname="test"/>
+	<testcase name="throwing branches accessor fails closed before timers and runners" time="0.000583" classname="test"/>
+	<testcase name="branches accessor is snapshotted once before runtime startup" time="0.000659" classname="test"/>
+	<testcase name="root runner map get override cannot replace validated authority" time="0.000783" classname="test"/>
+	<testcase name="root runner map snapshot ignores overridden iterator and size" time="0.000598" classname="test"/>
+	<testcase name="unreadable root runner map fails closed before branch startup" time="0.000577" classname="test"/>
+	<testcase name="invalid bounded admission options fail closed" time="0.001009" classname="test"/>
+	<testcase name="throwing max concurrency accessor fails closed before branch startup" time="0.000399" classname="test"/>
+	<testcase name="max concurrency accessor is snapshotted once before branch startup" time="0.000618" classname="test"/>
+	<testcase name="invalid concurrency options containers fail closed before property access" time="0.000592" classname="test"/>
+	<testcase name="throwing deadline accessor fails closed before timers and runners" time="0.000640" classname="test"/>
+	<testcase name="deadline accessor is snapshotted once before runtime startup" time="0.001060" classname="test"/>
+	<testcase name="throwing parent signal accessor fails closed before timers and runners" time="0.000431" classname="test"/>
+	<testcase name="parent signal accessor is snapshotted once before runtime startup" time="0.000540" classname="test"/>
+	<testcase name="parent signal capabilities are snapshotted before listener startup" time="0.000545" classname="test"/>
+	<testcase name="parent signal method bind overrides cannot replace capability authority" time="0.000495" classname="test"/>
+	<testcase name="parent signal method bind accessor faults do not invalidate a valid capability" time="0.000510" classname="test"/>
+	<testcase name="throwing now accessor fails closed before timers and runners" time="0.000329" classname="test"/>
+	<testcase name="throwing setTimeout accessor fails closed before timers and runners" time="0.000346" classname="test"/>
+	<testcase name="throwing clearTimeout accessor fails closed before timers and runners" time="0.000339" classname="test"/>
+	<testcase name="invalid initial deadline clock readings fail before timers and runners" time="0.000501" classname="test"/>
+	<testcase name="throwing initial deadline clock fails closed before timers and runners" time="0.000380" classname="test"/>
+	<testcase name="throwing deadline timer fails closed and removes the parent listener" time="0.000444" classname="test"/>
+	<testcase name="throwing deadline timer cleanup fails closed and removes the parent listener" time="0.000628" classname="test"/>
+	<testcase name="throwing parent listener registration fails closed and rolls back the listener" time="0.000426" classname="test"/>
+	<testcase name="throwing parent aborted getter fails closed during signal validation" time="0.000392" classname="test"/>
+	<testcase name="parent aborted state is snapshotted before listener registration" time="0.000588" classname="test"/>
+	<testcase name="throwing parent listener rollback preserves the primary timer fault" time="0.000509" classname="test"/>
+	<testcase name="throwing parent listener final cleanup fails closed after runners complete" time="0.000590" classname="test"/>
+	<testcase name="throwing effect start clock fails closed before the operation starts" time="0.000774" classname="test"/>
+	<testcase name="throwing cancellation completion clock fails closed after the operation completes" time="0.001004" classname="test"/>
+	<testcase name="invalid effect clock readings fail closed before operations start" time="0.001736" classname="test"/>
+	<testcase name="invalid cancellation completion clock fails closed after the operation completes" time="0.000782" classname="test"/>
+	<testcase name="host fault cancels bounded branches that have not been admitted" time="0.000610" classname="test"/>
+	<testcase name="parent cancellation waits cleanup and does not fake cooperative completion" time="0.001073" classname="test"/>
+	<testcase name="branch completion before parent cancellation remains complete" time="0.001652" classname="test"/>
+	<testcase name="complete-before-join records non-negative cancellation latency" time="0.001389" classname="test"/>
+	<testcase name="deadline uses an explicit monotonic endpoint and waits cooperative cleanup" time="0.000937" classname="test"/>
+	<testcase name="host fault sanitizes the fault, cancels siblings, and joins cleanup" time="0.000556" classname="test"/>
+	<testcase name="throwing plan root getter fails closed before runtime startup" time="0.000374" classname="test"/>
+	<testcase name="plan root fields are snapshotted before validation and verification" time="0.000446" classname="test"/>
+	<testcase name="throwing nested plan node getter fails closed before runtime startup" time="0.000354" classname="test"/>
+	<testcase name="nested plan nodes are snapshotted before validation and verification" time="0.000439" classname="test"/>
+	<testcase name="throwing plan edge getter fails closed before runtime startup" time="0.000325" classname="test"/>
+	<testcase name="plan edges are snapshotted before validation and verification" time="0.000431" classname="test"/>
+	<testcase name="overridden node collection map cannot bypass node snapshot" time="0.000952" classname="test"/>
+	<testcase name="overridden edge collection map cannot bypass edge snapshot" time="0.000428" classname="test"/>
+	<testcase name="throwing join member collection accessor fails closed before runtime startup" time="0.000390" classname="test"/>
+	<testcase name="join member collections are snapshotted before validation and verification" time="0.000450" classname="test"/>
+	<testcase name="throwing par policy getter fails closed before runtime startup" time="0.000365" classname="test"/>
+	<testcase name="malformed par region deadline fails closed before runtime startup" time="0.000344" classname="test"/>
+	<testcase name="malformed plans and runner/effect mismatches fail closed" time="0.000880" classname="test"/>
+	<testcase name="ten thousand empty branches settle without orphaned work" time="2.131892" classname="test"/>
+	<!-- tests 56 -->
+	<!-- suites 0 -->
+	<!-- pass 56 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 2212.265066 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="every control-flow attack executes against the lowering interface" time="0.011931" classname="test"/>
+	<testcase name="match lowering is exhaustive, priority-explicit, pure, and order independent" time="0.002541" classname="test"/>
+	<testcase name="loop lowering has one typed header, next merge, backedge, and exit merge" time="0.000329" classname="test"/>
+	<testcase name="result values require an explicit exact consumer and have no V1 propagation sugar" time="0.000311" classname="test"/>
+	<testcase name="function calls form a DAG and cannot be confused with Module cycles" time="0.000361" classname="test"/>
+	<testcase name="state-machine lowering exhausts State x Event and consumes command results" time="0.004188" classname="test"/>
+	<testcase name="Agent Relay lifecycle uses a closed State x Event contract" time="0.005315" classname="test"/>
+	<testcase name="Agent Relay lifecycle has a stable graph digest and terminal identity" time="0.006180" classname="test"/>
+	<testcase name="graph mutations cannot preserve a valid lowering digest" time="0.001246" classname="test"/>
+	<testcase name="valid control-flow contracts have fixed lowering graph digests" time="0.001142" classname="test"/>
+	<testcase name="malformed nested contracts fail closed without exposing host exceptions" time="0.070729" classname="test"/>
+	<!-- tests 11 -->
+	<!-- suites 0 -->
+	<!-- pass 11 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 134.298247 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="separate compact creation transactions assign the same stable identities" time="0.006726" classname="test"/>
+	<testcase name="committed value edges persist the producer UID, not parse order" time="0.000902" classname="test"/>
+	<testcase name="a UID collision rejects the whole creation transaction once" time="0.000865" classname="test"/>
+	<testcase name="creation rejects an identity already present in the destination graph" time="0.000758" classname="test"/>
+	<testcase name="creation rejects distinct UIDs with the same canonical label" time="0.000611" classname="test"/>
+	<testcase name="a broken value edge fails without exposing a partial graph" time="0.000597" classname="test"/>
+	<testcase name="rollback discards a pending graph and leaves its input untouched" time="0.001259" classname="test"/>
+	<testcase name="an invalid UID factory result becomes one stable diagnostic" time="0.000600" classname="test"/>
+	<testcase name="a 26-character base32 UID with non-zero padding bits is invalid" time="0.000734" classname="test"/>
+	<testcase name="checker rejects duplicate graph identity without repairing it" time="0.001696" classname="test"/>
+	<testcase name="creation preserves identities already carried by a structured graph" time="0.001726" classname="test"/>
+	<testcase name="committed graph identities cannot be mutated in place" time="0.001198" classname="test"/>
+	<!-- tests 12 -->
+	<!-- suites 0 -->
+	<!-- pass 12 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 65.841385 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="decimal rescale corpus fixes database, finance, and directed rounding semantics" time="0.002407" classname="test"/>
+	<testcase name="scale 255 remains exact and does not inherit host floating-point limits" time="0.000284" classname="test"/>
+	<testcase name="all rounding modes match an independent rational oracle" time="0.051966" classname="test"/>
+	<testcase name="rescale contract rejects missing, unknown, and open-ended rounding claims" time="0.000301" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 78.836839 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="EXIT-001 maps process.exit(0) after main returns" time="0.001585" classname="test"/>
+	<testcase name="EXIT-002 accepts the maximum process.exit_code" time="0.000246" classname="test"/>
+	<testcase name="EXIT-003 rejects process.exit(256) before execution" time="0.000369" classname="test"/>
+	<testcase name="EXIT-004 maps status only after stdout result is consumed" time="0.004284" classname="test"/>
+	<testcase name="EXIT-005 preserves a host fault produced before status" time="0.001674" classname="test"/>
+	<testcase name="runner JSON driver matches the byte-exact process-status golden" time="0.002849" classname="test"/>
+	<!-- tests 6 -->
+	<!-- suites 0 -->
+	<!-- pass 6 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 37.70252 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="deterministic replacement generator replays exactly from its seed" time="0.001856" classname="test"/>
+	<testcase name="ASCII structural fuzz does not pretend to cover Unicode mutation" time="0.000435" classname="test"/>
+	<testcase name="ten thousand structural mutations never preserve the same CST" time="0.369752" classname="test"/>
+	<!-- tests 3 -->
+	<!-- suites 0 -->
+	<!-- pass 3 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 402.615318 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="fresh compact builds are byte-identical across processes and directories" time="1.238642" classname="test"/>
+	<!-- tests 1 -->
+	<!-- suites 0 -->
+	<!-- pass 1 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 1256.546667 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="executable grammar profile is the versioned header authority" time="0.001771" classname="test"/>
+	<testcase name="executable grammar distinguishes compact and canonical headers" time="0.000421" classname="test"/>
+	<testcase name="executable grammar requires explicit source form" time="0.000487" classname="test"/>
+	<testcase name="executable grammar reads only an exact first physical line" time="0.000344" classname="test"/>
+	<testcase name="executable grammar separates version syntax from version support" time="0.000390" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 24.40495 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="file sandbox READ-001 returns exact UTF-8 text" time="0.004253" classname="test"/>
+	<testcase name="file sandbox READ-002 maps a missing file to the declared error" time="0.000704" classname="test"/>
+	<testcase name="file sandbox READ-003 maps denied permission to the declared error" time="0.000888" classname="test"/>
+	<testcase name="file sandbox READ-004 rejects a path outside its root" time="0.001065" classname="test"/>
+	<testcase name="file sandbox rejects a symlink that escapes its root" time="0.001267" classname="test"/>
+	<testcase name="file sandbox READ-005 maps invalid UTF-8 to the declared error" time="0.001387" classname="test"/>
+	<testcase name="file sandbox maps proxy read bytes to io before UTF-8 decoding" time="0.000467" classname="test"/>
+	<testcase name="file sandbox maps other read failures to fs.read_error.io" time="0.000696" classname="test"/>
+	<testcase name="file sandbox WRITE-001 writes exact bytes and returns ok(unit)" time="0.001228" classname="test"/>
+	<testcase name="file sandbox WRITE-002 preserves content when permission is denied" time="0.001134" classname="test"/>
+	<testcase name="file sandbox WRITE-003 rejects a path outside its root" time="0.000724" classname="test"/>
+	<testcase name="file sandbox rejects writing through a symlink outside its root" time="0.000928" classname="test"/>
+	<testcase name="file sandbox rejects creating through an escaping parent symlink" time="0.000876" classname="test"/>
+	<testcase name="file sandbox maps a missing parent directory to parent_not_found" time="0.001216" classname="test"/>
+	<testcase name="file sandbox maps other write failures to fs.write_error.io" time="0.000456" classname="test"/>
+	<testcase name="file sandbox maps ENOSPC to fs.write_error.no_space" time="0.000665" classname="test"/>
+	<testcase name="file sandbox snapshots filesystem method authority before root resolution" time="0.000466" classname="test"/>
+	<testcase name="file sandbox rejects proxy write bytes before filesystem dispatch" time="0.000242" classname="test"/>
+	<!-- tests 18 -->
+	<!-- suites 0 -->
+	<!-- pass 18 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 42.38232 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="candidate parser produces one stable parse and token stream" time="0.004082" classname="test"/>
+	<testcase name="candidate parser accepts canonical int and decimal token surfaces" time="0.001129" classname="test"/>
+	<testcase name="candidate parser gives one diagnostic for non-canonical numeric tokens" time="0.003337" classname="test"/>
+	<testcase name="candidate parser fails closed for canonical source" time="0.000351" classname="test"/>
+	<testcase name="candidate parser returns stable candidate-specific diagnostics" time="0.000526" classname="test"/>
+	<testcase name="candidate diagnostics are versioned, attributable, byte-exact, and repairable" time="0.000461" classname="test"/>
+	<testcase name="candidate parser rejects unknown grammar profiles" time="0.000167" classname="test"/>
+	<testcase name="candidate parser attributes header and lexer failures to one phase" time="0.000372" classname="test"/>
+	<testcase name="header diagnostics use the same Agent-readable source contract" time="0.000552" classname="test"/>
+	<testcase name="candidate parser rejects non-ASCII compact trivia at a stable span" time="0.000757" classname="test"/>
+	<testcase name="candidate line comments cannot hide non-ASCII whitespace" time="0.000325" classname="test"/>
+	<testcase name="candidate line comments are discarded before CST construction" time="0.000439" classname="test"/>
+	<testcase name="candidate parser reserves annotation prefix but rejects all V1 placements" time="0.000379" classname="test"/>
+	<testcase name="production and candidate parsers share byte-exact lexer diagnostics" time="0.000429" classname="test"/>
+	<!-- tests 14 -->
+	<!-- suites 0 -->
+	<!-- pass 14 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 44.083361 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="shared grammar corpus has one stable identity per case" time="0.001078" classname="test"/>
+	<testcase name="shared corpus schema acknowledges paired grammar tasks" time="0.000215" classname="test"/>
+	<testcase name="settled header rules satisfy the shared grammar corpus" time="0.001493" classname="test"/>
+	<testcase name="S2 token-role candidate satisfies its shared grammar corpus" time="0.000606" classname="test"/>
+	<testcase name="paired grammar tasks separate grammar candidate from source form" time="0.000854" classname="test"/>
+	<testcase name="paired grammar tasks execute both candidates against independent expectations" time="0.006613" classname="test"/>
+	<testcase name="successful S1 and S2 variants produce the same normalized CST" time="0.000677" classname="test"/>
+	<testcase name="numeric corpus preserves arbitrary-precision text and decimal scale" time="0.000857" classname="test"/>
+	<testcase name="active negative tasks have stable expected diagnostic codes" time="0.004531" classname="test"/>
+	<testcase name="independent diagnostic oracle separates distinguishable negative classes" time="0.001920" classname="test"/>
+	<testcase name="deferred tasks name their blocker and stop at source-form dispatch" time="0.000440" classname="test"/>
+	<testcase name="every corpus blocker maps to one named deferred grammar seam" time="0.000259" classname="test"/>
+	<testcase name="successful candidate tokenization and parsing are deterministic" time="0.001934" classname="test"/>
+	<!-- tests 13 -->
+	<!-- suites 0 -->
+	<!-- pass 13 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 68.024166 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="S2 classifies each reserved role-shaped token without claiming source acceptance" time="0.001937" classname="test"/>
+	<testcase name="G3 records current-slice evidence without claiming full grammar freeze" time="0.000245" classname="test"/>
+	<testcase name="G6 records harness evidence without claiming model cold-start success" time="0.000168" classname="test"/>
+	<testcase name="S2 rejects legacy, malformed, and role-crossing tokens without guessing" time="0.000337" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 21.960263 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="grammar fuzz semantic projection strips locations but preserves graph values" time="0.001628" classname="test"/>
+	<testcase name="grammar fuzz gate is replayable without materializing its corpus" time="2.398520" classname="test"/>
+	<testcase name="grammar fuzz gate rejects invalid iteration counts" time="0.000737" classname="test"/>
+	<testcase name="grammar fuzz baseline verification rejects semantic drift" time="0.000318" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 2465.821814 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="mutation corpus has stable identities and independently valid seeds" time="0.007174" classname="test"/>
+	<testcase name="each structural mutation has one anchor and one stable primary failure" time="0.006373" classname="test"/>
+	<testcase name="mutation corpus covers every currently disputed structural boundary" time="0.000205" classname="test"/>
+	<testcase name="settled compact header rejects every one-byte printable substitution" time="0.022122" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 65.299247 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="both PEG candidates are reference-complete for the compact slice" time="0.002885" classname="test"/>
+	<testcase name="PEG candidates isolate the disputed sigils and share the graph slice" time="0.000399" classname="test"/>
+	<testcase name="compact aliases reserve the full %u prefix for canonical labels" time="0.000249" classname="test"/>
+	<testcase name="canonical grammar is declared deferred instead of shadowing compact" time="0.000265" classname="test"/>
+	<testcase name="unsettled grammar choices are named seams, not permissive rules" time="0.000146" classname="test"/>
+	<testcase name="V1 source boundaries reject annotations and make comments non-semantic" time="0.000239" classname="test"/>
+	<testcase name="compact trivia policy allows only ASCII separators outside comments" time="0.000168" classname="test"/>
+	<testcase name="PEG validator rejects undefined, duplicate, and unreachable rules" time="0.000444" classname="test"/>
+	<testcase name="PEG validator rejects a profile copied with different sigils" time="0.000363" classname="test"/>
+	<testcase name="PEG validator rejects a copied numeric constraint" time="0.000411" classname="test"/>
+	<testcase name="PEG validator rejects a copied compact trivia policy" time="0.000198" classname="test"/>
+	<testcase name="PEG validator rejects a copied V1 source boundary policy" time="0.000258" classname="test"/>
+	<!-- tests 12 -->
+	<!-- suites 0 -->
+	<!-- pass 12 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 28.670552 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="BIND-001 binds an exact-reference adapter and invokes by instance" time="0.004313" classname="test"/>
+	<testcase name="BIND-002 rejects a capability instance without a host binding" time="0.000312" classname="test"/>
+	<testcase name="BIND-003 rejects ambiguous host bindings instead of choosing one" time="0.000442" classname="test"/>
+	<testcase name="BIND-004 rejects an adapter that supports a different revision" time="0.000404" classname="test"/>
+	<testcase name="binding fails before adapter matching when the schema revision is missing" time="0.000333" classname="test"/>
+	<testcase name="BIND-005 rejects a member absent from the pinned interface" time="0.000409" classname="test"/>
+	<testcase name="invoke rejects an undeclared capability instance before adapter dispatch" time="0.000292" classname="test"/>
+	<testcase name="typed argument validation rejects a missing required parameter" time="0.000409" classname="test"/>
+	<testcase name="typed argument validation rejects a value with the wrong type" time="0.000666" classname="test"/>
+	<testcase name="typed argument validation rejects an unexpected named argument" time="0.001554" classname="test"/>
+	<testcase name="typed argument validation expands schema defaults before dispatch" time="0.001508" classname="test"/>
+	<testcase name="adapter-facing resource footprints are resolved from the pinned schema" time="0.000627" classname="test"/>
+	<testcase name="built-in adapters publish metadata matching the pinned schema and parent lineage is explicit" time="0.000961" classname="test"/>
+	<testcase name="adapter metadata mismatch fails closed before binding" time="0.008087" classname="test"/>
+	<testcase name="adapter exceptions become sanitized host-contract-violation outcomes" time="0.000390" classname="test"/>
+	<testcase name="adapter values that violate returns become host faults" time="0.000309" classname="test"/>
+	<testcase name="WRITE-004 rejects an adapter error outside the closed error sum" time="0.000377" classname="test"/>
+	<testcase name="ARGS-004 rejects list&lt;bytes> returned as list&lt;text.utf8>" time="0.000821" classname="test"/>
+	<testcase name="READ-006 contextualizes a malformed transport payload as a host fault" time="0.000371" classname="test"/>
+	<!-- tests 19 -->
+	<!-- suites 0 -->
+	<!-- pass 19 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 52.046754 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="human review classifies a UID-stable rename as one modified fact" time="0.014935" classname="test"/>
+	<testcase name="human review marks added capability, effect, and error facts high risk" time="0.007109" classname="test"/>
+	<testcase name="carrier-only source and declaration order changes produce zero semantic change" time="0.007073" classname="test"/>
+	<testcase name="all renderers bind the same semantic fact and review digests" time="0.017523" classname="test"/>
+	<testcase name="approve, reject, and stale decisions bind review authority without graph writes" time="0.011488" classname="test"/>
+	<testcase name="human review fails closed on stale evidence and unsupported templates" time="0.007495" classname="test"/>
+	<testcase name="human review rejects forged or unknown authoring evidence" time="0.004717" classname="test"/>
+	<testcase name="human review rejects forged dry-run and receipt authority digests" time="0.002938" classname="test"/>
+	<testcase name="human review verifier rebuilds omitted facts and rejects synchronized resigning" time="0.016385" classname="test"/>
+	<testcase name="decision verifier rejects digest-exact records against the wrong review" time="0.006084" classname="test"/>
+	<testcase name="human semantic review conformance rebuilds review and attack evidence" time="0.207757" classname="test"/>
+	<!-- tests 11 -->
+	<!-- suites 0 -->
+	<!-- pass 11 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 332.73715 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="canonical integers preserve arbitrary precision and sign" time="0.001505" classname="test"/>
+	<testcase name="canonical integers reject non-canonical syntax before conversion" time="0.000290" classname="test"/>
+	<!-- tests 2 -->
+	<!-- suites 0 -->
+	<!-- pass 2 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 19.078011 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="interface projection is deterministic, path-free, and binds route authority" time="0.047358" classname="test"/>
+	<testcase name="interface projection rejects an export without exact checked operation authority" time="0.001820" classname="test"/>
+	<testcase name="interface projection rejects a structurally checked operation with stale declaration digest" time="0.002237" classname="test"/>
+	<testcase name="interface projection preserves the business digest for its structurally checked form" time="0.003338" classname="test"/>
+	<testcase name="interface projection rejects ambiguous adapter type names instead of guessing a digest" time="0.003769" classname="test"/>
+	<testcase name="interface projection rejects route, error, and revision drift before writing" time="0.011000" classname="test"/>
+	<testcase name="interface projection rejects unknown and recursive type authority" time="0.003632" classname="test"/>
+	<testcase name="interface projection rejects an operation outside the checked module graph" time="0.001912" classname="test"/>
+	<testcase name="interface projection rejects colliding generated client method names" time="0.003063" classname="test"/>
+	<testcase name="interface projection emits optional idempotency without requiring a key" time="0.002396" classname="test"/>
+	<testcase name="generated client uses the Server profile header wire format and rejects unsafe values" time="0.003043" classname="test"/>
+	<testcase name="generated client validates response JSON before returning typed values" time="0.003384" classname="test"/>
+	<testcase name="project-projection CLI emits byte-identical checked-project artifacts across fresh processes" time="0.414696" classname="test"/>
+	<testcase name="interface projection refuses a symlinked output directory before writing" time="0.003031" classname="test"/>
+	<!-- tests 14 -->
+	<!-- suites 0 -->
+	<!-- pass 14 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 540.771244 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="run process-status output matches the byte-exact golden envelope" time="0.002346" classname="test"/>
+	<testcase name="run host-fault output matches the byte-exact golden envelope" time="0.001593" classname="test"/>
+	<testcase name="run check-failure sorts diagnostics before serialization" time="0.000779" classname="test"/>
+	<testcase name="audit output sorts semantic collections and matches its golden" time="0.000803" classname="test"/>
+	<testcase name="build result output uses a stable envelope" time="0.000355" classname="test"/>
+	<testcase name="project review index result uses a stable envelope" time="0.000232" classname="test"/>
+	<testcase name="profile result output uses a stable envelope" time="0.000302" classname="test"/>
+	<testcase name="translation result output uses a stable envelope" time="0.000202" classname="test"/>
+	<!-- tests 8 -->
+	<!-- suites 0 -->
+	<!-- pass 8 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 25.833706 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="inline literals are materialized as stable literal graph nodes" time="0.005566" classname="test"/>
+	<testcase name="production parser preserves decimal scale in the literal type" time="0.000810" classname="test"/>
+	<testcase name="call arguments reference literal nodes through value edges, not raw values" time="0.001024" classname="test"/>
+	<testcase name="separate compact creation transactions assign the same literal UIDs" time="0.001447" classname="test"/>
+	<testcase name="literal identities and argument endpoints survive re-entering a structured graph" time="0.002081" classname="test"/>
+	<testcase name="a broken literal endpoint is rejected atomically at check time" time="0.000948" classname="test"/>
+	<testcase name="the evaluator resolves literal values along argument value edges" time="0.012862" classname="test"/>
+	<testcase name="the checker rejects a literal node whose type does not match the schema" time="0.001571" classname="test"/>
+	<!-- tests 8 -->
+	<!-- suites 0 -->
+	<!-- pass 8 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 87.050692 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="LLVM AOT external runner compiles and executes the frozen portable oracle" time="0.000927" classname="test">
+		<skipped type="skipped" message="true"/>
+	</testcase>
+	<testcase name="LLVM AOT evidence stable digest excludes clock samples but evidence digest binds them" time="0.000104" classname="test">
+		<skipped type="skipped" message="true"/>
+	</testcase>
+	<testcase name="LLVM AOT verifier rejects synchronized authority, result, provenance, and metric drift" time="0.000090" classname="test">
+		<skipped type="skipped" message="true"/>
+	</testcase>
+	<testcase name="LLVM AOT runner does not accept a forged expected outcome as executable authority" time="0.000086" classname="test">
+		<skipped type="skipped" message="true"/>
+	</testcase>
+	<testcase name="LLVM AOT evidence reports every feasibility probe without widening eligibility" time="0.000192" classname="test">
+		<skipped type="skipped" message="true"/>
+	</testcase>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 0 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 5 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 66.855265 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="materialized project-run executes a checked task and emits deterministic replay receipt" time="0.355392" classname="test"/>
+	<testcase name="project-run receipt verifier rejects identity and payload drift" time="0.093383" classname="test"/>
+	<testcase name="project-run rejects graph drift, unknown cases, and translation artifacts before adapter use" time="0.464314" classname="test"/>
+	<testcase name="project-run closes retry exhaustion and cancellation as typed outcomes without replayed effects" time="0.495026" classname="test"/>
+	<testcase name="project-run rejects source contract drift, legacy sidecars, and symlinked fixtures before execution" time="0.429793" classname="test"/>
+	<testcase name="project-run cannot invoke an adapter that the checked function body does not call" time="0.035994" classname="test"/>
+	<testcase name="project-run adapter injection receives only canonical checked business input" time="0.042898" classname="test"/>
+	<testcase name="project-run loopback HTTP adapter proves retry requests and receipt trace" time="0.083051" classname="test"/>
+	<testcase name="project-run SQLite adapter proves database text projection and receipt trace" time="0.050757" classname="test"/>
+	<testcase name="project-run SQLite file handle preserves receipt authority across an explicit file lifecycle" time="0.042457" classname="test"/>
+	<testcase name="project-run rejects boundary text outside the source-owned currency sum" time="0.037131" classname="test"/>
+	<testcase name="project-run selection cannot inject task, adapter, or response authority" time="0.462458" classname="test"/>
+	<!-- tests 12 -->
+	<!-- suites 0 -->
+	<!-- pass 12 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 2670.433284 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="materialized Agent project checks and translates across locales and media" time="1.423845" classname="test"/>
+	<testcase name="materialized Agent project projection is byte-identical across fresh outputs" time="0.330192" classname="test"/>
+	<testcase name="materialized project source facts control graph identity and legacy sidecars fail closed" time="0.546755" classname="test"/>
+	<testcase name="materialized execution contracts reject missing, mismatched, and duplicate authority" time="1.369565" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 3690.647802 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="ARGS-001 returns an empty list for empty program arguments" time="0.001842" classname="test"/>
+	<testcase name="ARGS-002 exposes only the configured UTF-8 program arguments" time="0.000585" classname="test"/>
+	<testcase name="ARGS-003 maps a non-UTF-8 argv byte sequence to a declared error" time="0.000363" classname="test"/>
+	<testcase name="ARGS-004 snapshots argv indexes and bytes without using the input iterator" time="0.000260" classname="test"/>
+	<testcase name="READ-001 returns exact UTF-8 text from the memory sandbox" time="0.000239" classname="test"/>
+	<testcase name="READ-002 maps a missing file to the declared program error" time="0.000192" classname="test"/>
+	<testcase name="READ-003 maps denied read permission to the declared program error" time="0.000240" classname="test"/>
+	<testcase name="READ-004 rejects paths that resolve outside the memory sandbox" time="0.000149" classname="test"/>
+	<testcase name="READ-005 maps invalid UTF-8 bytes to the declared program error" time="0.000443" classname="test"/>
+	<testcase name="WRITE-001 writes exact bytes and returns ok(unit)" time="0.000471" classname="test"/>
+	<testcase name="WRITE-002 preserves content when write permission is denied" time="0.000230" classname="test"/>
+	<testcase name="WRITE-003 rejects paths that resolve outside the memory sandbox" time="0.000296" classname="test"/>
+	<testcase name="WRITE-004 rejects proxy bytes before mutating the memory sandbox" time="0.000168" classname="test"/>
+	<testcase name="WRITE-005 snapshots genuine bytes before storing the file record" time="0.000173" classname="test"/>
+	<testcase name="memory adapter snapshots injected files before later map or byte mutation" time="0.000158" classname="test"/>
+	<testcase name="memory adapter rejects proxy file bytes during construction" time="0.000269" classname="test"/>
+	<testcase name="STDOUT-001 appends exact text without adding a newline" time="0.000135" classname="test"/>
+	<testcase name="STDOUT-002 accepts empty text without changing the buffer" time="0.000223" classname="test"/>
+	<testcase name="STDOUT-003 maps broken pipe without appending output" time="0.000132" classname="test"/>
+	<!-- tests 19 -->
+	<!-- suites 0 -->
+	<!-- pass 19 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 31.380162 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="minimal std ABI freezes four host-independent module contracts" time="0.012712" classname="test"/>
+	<testcase name="minimal std ABI canonical identity ignores named collection order only" time="0.005723" classname="test"/>
+	<testcase name="minimal std ABI rejects missing, duplicate, invented, host, and generic drift" time="0.002395" classname="test"/>
+	<testcase name="minimal std ABI rejects synchronized report and manifest drift" time="0.006843" classname="test"/>
+	<testcase name="minimal std ABI rejects malformed report collections with a stable code" time="0.001959" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 57.118764 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="minimal std external dependency binds interface and runtime package authority" time="0.007218" classname="test"/>
+	<testcase name="minimal std cache conformance invalidates 50 and 500 modules on runtime drift" time="1.279093" classname="test"/>
+	<!-- tests 2 -->
+	<!-- suites 0 -->
+	<!-- pass 2 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 1314.778597 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="minimal std subset executes every frozen host-independent operation" time="0.057653" classname="test"/>
+	<testcase name="minimal std subset snapshots generic payloads and rejects authority or input drift" time="0.010237" classname="test"/>
+	<testcase name="minimal std invocation check manifest run and translate share exact revision" time="0.177821" classname="test"/>
+	<testcase name="canonical std decode binds check manifest run and translate to one package identity" time="0.047137" classname="test"/>
+	<testcase name="minimal std runtime package binds the frozen ABI to an empty capability boundary" time="0.003687" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 361.837405 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="module artifact cache key binds implementation, interfaces, dependencies, toolchain, and profile" time="0.003720" classname="test"/>
+	<testcase name="module artifact cache publishes atomically and rejects corruption, stale entries, and nondeterminism" time="0.010931" classname="test"/>
+	<testcase name="module build rejects a self-resigned payload that is not semantically equivalent" time="0.004527" classname="test"/>
+	<testcase name="module artifact cache reuses implementation-only builds and invalidates interface dependents" time="0.187147" classname="test"/>
+	<testcase name="50 and 500 module benchmark records cold, warm, implementation, and interface builds" time="2.073595" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 2303.480514 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="module contract validates exact internal and external dependencies" time="0.003307" classname="test"/>
+	<testcase name="module and package digests ignore collection and object insertion order" time="0.000880" classname="test"/>
+	<testcase name="module resolution exposes only declared exports through an exact binding" time="0.000828" classname="test"/>
+	<testcase name="module contract rejects ranges, stale interface pins, and unknown claims" time="0.000781" classname="test"/>
+	<testcase name="module dependency cycles fail closed even when other pins are stale" time="0.001034" classname="test"/>
+	<testcase name="incremental plan isolates implementation changes and closes interface dependents" time="0.000818" classname="test"/>
+	<testcase name="64-module package keeps digest and recheck plan deterministic" time="0.008865" classname="test"/>
+	<testcase name="malformed module collections return diagnostics instead of throwing" time="0.001300" classname="test"/>
+	<!-- tests 8 -->
+	<!-- suites 0 -->
+	<!-- pass 8 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 44.551987 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="module review declarations lower source-owned facts independent of declaration order" time="0.006827" classname="test"/>
+	<testcase name="module review declarations reject duplicate identity before lowering" time="0.000586" classname="test"/>
+	<testcase name="module review declarations reject malformed UID and unpinned capability references" time="0.000898" classname="test"/>
+	<!-- tests 3 -->
+	<!-- suites 0 -->
+	<!-- pass 3 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 40.820833 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="module execution declarations lower validated task, adapter, and run case contracts" time="0.011642" classname="test"/>
+	<testcase name="module execution declarations reject noncanonical and detached contracts" time="0.001089" classname="test"/>
+	<testcase name="module execution declarations reject duplicate semantic names" time="0.000701" classname="test"/>
+	<!-- tests 3 -->
+	<!-- suites 0 -->
+	<!-- pass 3 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 44.237681 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="module source corpus freezes its lowering and span contracts" time="0.001474" classname="test"/>
+	<testcase name="every module source case matches its exact lowering or diagnostic oracle" time="0.010633" classname="test"/>
+	<testcase name="declaration order cannot change the lowered Module interface" time="0.000744" classname="test"/>
+	<testcase name="unknown suffixes fail closed instead of preserving a successful prefix" time="0.000541" classname="test"/>
+	<testcase name="duplicate identity outranks pin mismatch regardless of declaration order" time="0.000761" classname="test"/>
+	<testcase name="UTF-8 byte offsets and scalar line/column positions remain distinct" time="0.000627" classname="test"/>
+	<!-- tests 6 -->
+	<!-- suites 0 -->
+	<!-- pass 6 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 46.984071 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="module surface corpus names exact-pin attacks without inventing source grammar" time="0.001462" classname="test"/>
+	<testcase name="a consistent DAG diamond is valid and an inconsistent path pin is rejected" time="0.002497" classname="test"/>
+	<testcase name="duplicate binding and export names receive their stable set diagnostics" time="0.000802" classname="test"/>
+	<testcase name="external substitution is either unresolved or changes the locked package digest" time="0.000823" classname="test"/>
+	<testcase name="every abstract surface case matches its executable manifest oracle" time="0.001664" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 32.008218 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="native workspace builds offline with no third-party dependency graph" time="8.130332" classname="test"/>
+	<testcase name="native lexer token stream matches Node oracle on executable fixtures" time="0.035172" classname="test"/>
+	<testcase name="native parser acceptance and diagnostic identity match Node oracle" time="0.068702" classname="test"/>
+	<testcase name="native checker accepts canonical graphs and preserves their revision" time="0.005922" classname="test"/>
+	<testcase name="native bytecode translator emits a verified graph-bound artifact" time="0.010019" classname="test"/>
+	<testcase name="native conformance runner reports deterministic fixture outcomes" time="0.004629" classname="test"/>
+	<testcase name="native release boundary contains no Node, JavaScript, or registry dependency" time="0.013411" classname="test"/>
+	<testcase name="native dependency scan skips only the Darwin target header" time="0.000810" classname="test"/>
+	<!-- tests 8 -->
+	<!-- suites 0 -->
+	<!-- pass 8 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 8295.299364 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="portable bytecode process protocol preserves all nine oracle cases" time="0.432710" classname="test"/>
+	<testcase name="portable bytecode process request rejects field, digest, script and result drift" time="0.008871" classname="test"/>
+	<testcase name="portable bytecode process line protocol is bounded and exact" time="0.001288" classname="test"/>
+	<testcase name="portable bytecode process terminates timed out and early-exit workers" time="0.151612" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 651.858291 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="portable bytecode compiles deterministically and executes the frozen slice" time="0.010300" classname="test"/>
+	<testcase name="portable bytecode rejects artifact, graph, profile, opcode, jump, register and literal drift" time="0.005767" classname="test"/>
+	<testcase name="portable bytecode compiler rejects graph shape expansion" time="0.001970" classname="test"/>
+	<testcase name="portable bytecode matches portable core across the nine-case oracle" time="0.020621" classname="test"/>
+	<testcase name="portable bytecode rederives artifact authority from the trusted checked graph" time="0.003558" classname="test"/>
+	<testcase name="portable bytecode interpreter core imports no Node builtin or host adapter" time="0.000659" classname="test"/>
+	<!-- tests 6 -->
+	<!-- suites 0 -->
+	<!-- pass 6 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 101.447101 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="portable conformance evidence commits only after verification succeeds" time="0.004781" classname="test"/>
+	<testcase name="portable conformance evidence preserves the previous file on failure" time="0.002463" classname="test"/>
+	<!-- tests 2 -->
+	<!-- suites 0 -->
+	<!-- pass 2 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 28.020277 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="portable conformance matrix partitions measured and pending environments exactly" time="0.004720" classname="test"/>
+	<testcase name="portable conformance matrix rejects identity, result and partition drift" time="0.004882" classname="test"/>
+	<testcase name="portable conformance matrix rejects authority and coverage drift" time="0.000898" classname="test"/>
+	<testcase name="portable conformance evidence rejects malformed pending without throwing" time="0.000816" classname="test"/>
+	<testcase name="portable conformance release evidence requires measured receipts without host identity" time="0.001360" classname="test"/>
+	<testcase name="portable conformance receipt merge preserves other environments and replaces current" time="0.010702" classname="test"/>
+	<testcase name="portable conformance receipt merge rejects existing and incoming drift" time="0.002704" classname="test"/>
+	<!-- tests 7 -->
+	<!-- suites 0 -->
+	<!-- pass 7 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 49.334032 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="portable conformance bundle is strict and covers every Demo capability branch" time="0.441062" classname="test"/>
+	<testcase name="portable conformance bundle runs byte-equivalently twice" time="0.807495" classname="test"/>
+	<testcase name="portable conformance cases match Node reference host binding outcomes" time="0.041371" classname="test"/>
+	<testcase name="portable conformance runner imports no Node builtin or host adapter module" time="0.000581" classname="test"/>
+	<testcase name="portable conformance rejects bundle and case field drift" time="0.001343" classname="test"/>
+	<testcase name="portable conformance rejects invocation identity, arguments, response and expected result drift" time="0.005086" classname="test"/>
+	<!-- tests 6 -->
+	<!-- suites 0 -->
+	<!-- pass 6 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 1355.163015 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="portable executor benchmark produces exact three-way semantic equivalence" time="1.309548" classname="test"/>
+	<testcase name="portable executor benchmark rejects candidate and workload set drift" time="0.455610" classname="test"/>
+	<testcase name="portable executor benchmark rejects synchronized authority and result forgery" time="3.742482" classname="test"/>
+	<testcase name="portable executor benchmark digest excludes no semantic authority" time="0.420014" classname="test"/>
+	<testcase name="portable executor benchmark Node reference crosses the host contract front door" time="0.000759" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 5985.567132 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="portable executor core has no Node builtin imports and matches Node reference outcome" time="0.015441" classname="test"/>
+	<testcase name="portable execution contract binds graph revision, profile and input digest" time="0.003422" classname="test"/>
+	<testcase name="portable verification evidence snapshots full capability response and arguments" time="0.001384" classname="test"/>
+	<testcase name="portable execution consumes one capability response snapshot" time="0.001130" classname="test"/>
+	<testcase name="portable evidence rejects spoofed Uint8Array capability payloads" time="0.000888" classname="test"/>
+	<testcase name="portable executor rejects contract drift, unsupported effects and missing match branches" time="0.000935" classname="test"/>
+	<testcase name="portable core source imports no Node builtin or host adapter module" time="0.002420" classname="test"/>
+	<!-- tests 7 -->
+	<!-- suites 0 -->
+	<!-- pass 7 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 82.064314 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="portable fault protocol freezes core, bytecode, and process failures" time="0.755171" classname="test"/>
+	<testcase name="portable fault protocol records preflight and child lifecycle exactly" time="0.230357" classname="test"/>
+	<testcase name="portable fault verifier rejects workload set drift" time="0.237909" classname="test"/>
+	<testcase name="portable fault verifier rejects synchronized authority and result forgery" time="0.960803" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 2247.491447 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="portable runtime ABI freezes execution, fault, and lifecycle requests" time="2.098100" classname="test"/>
+	<testcase name="portable runtime ABI rejects missing fields and synchronized authority drift" time="4.008074" classname="test"/>
+	<!-- tests 2 -->
+	<!-- suites 0 -->
+	<!-- pass 2 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 6176.992328 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="project benchmark topology generation is deterministic and covers DAG shapes" time="0.002959" classname="test"/>
+	<testcase name="project benchmark runs real graph-first incremental scenarios and rejects tampering" time="0.362157" classname="test"/>
+	<!-- tests 2 -->
+	<!-- suites 0 -->
+	<!-- pass 2 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 401.096705 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="project build publishes only a complete path-free manifest and reuses a warm graph" time="0.028060" classname="test"/>
+	<testcase name="project build computes minimal implementation and interface invalidation" time="0.028239" classname="test"/>
+	<testcase name="project build closes add, delete, rename, and orphan artifact authority" time="0.031538" classname="test"/>
+	<testcase name="project build failure never publishes a partial manifest" time="0.015452" classname="test"/>
+	<testcase name="project build requires semantic verification and rejects corrupt current cache" time="0.010607" classname="test"/>
+	<testcase name="project build rejects verifier failure and uncommitted previous manifest authority" time="0.010132" classname="test"/>
+	<testcase name="project build invalidates dependency edges, package pins, toolchain, and profile" time="0.027752" classname="test"/>
+	<testcase name="project build manifest rejects corruption and concurrent conflicting publication" time="0.007391" classname="test"/>
+	<testcase name="concurrent identical project builds replay and conflicting payloads fail closed" time="0.023286" classname="test"/>
+	<!-- tests 9 -->
+	<!-- suites 0 -->
+	<!-- pass 9 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 219.497936 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="project runtime binds task identity and emits replayable audit" time="0.011096" classname="test"/>
+	<testcase name="project runtime rejects stale, detached, and missing task identities before runners" time="0.001677" classname="test"/>
+	<testcase name="project runtime rejects write conflicts and mutable aliases before runners" time="0.001350" classname="test"/>
+	<testcase name="project scheduler remains deterministic for 10000 tasks and replay" time="90.622751" classname="test"/>
+	<testcase name="project audit binds nested task scopes and host-fault cleanup" time="0.007192" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 90678.9999 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="project loader checks source surfaces and emits a root-independent DAG" time="0.015198" classname="test"/>
+	<testcase name="project loader rejects path escape before reading a module" time="0.004769" classname="test"/>
+	<testcase name="project loader rejects source digest drift and unlisted files" time="0.004731" classname="test"/>
+	<testcase name="project loader closes missing module, duplicate module, and package cycle" time="0.003667" classname="test"/>
+	<testcase name="project loader derives review facts from module source without a semantic sidecar" time="0.005705" classname="test"/>
+	<testcase name="project loader keeps same local closed-sum names module-scoped" time="0.013911" classname="test"/>
+	<testcase name="project loader rejects legacy review evidence as a second semantic authority" time="0.002281" classname="test"/>
+	<!-- tests 7 -->
+	<!-- suites 0 -->
+	<!-- pass 7 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 83.452733 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="project patch atomically renames and moves while preserving module UID" time="0.004338" classname="test"/>
+	<testcase name="project patch creates identities inside the transaction and reports changed facts" time="0.001683" classname="test"/>
+	<testcase name="project patch rejects stale UID, dependency cycles, escalation, and partial apply" time="0.002516" classname="test"/>
+	<testcase name="project patch allocates all new identities transactionally and rewrites renamed dependencies" time="0.001845" classname="test"/>
+	<testcase name="project patch rejects caller-supplied identities and missing nested module" time="0.000277" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 34.424358 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="project review index includes typed project facts with stable pagination" time="0.005425" classname="test"/>
+	<testcase name="project review facts expand only against the current index revision" time="0.002487" classname="test"/>
+	<testcase name="changed-since and malformed project inputs fail closed" time="0.001282" classname="test"/>
+	<!-- tests 3 -->
+	<!-- suites 0 -->
+	<!-- pass 3 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 30.705732 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="public project template manifest is canonical and bound to its source" time="0.001614" classname="test"/>
+	<testcase name="public project template passes the source CLI project workflow" time="0.085619" classname="test"/>
+	<!-- tests 2 -->
+	<!-- suites 0 -->
+	<!-- pass 2 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 108.547171 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="project translation emits one fact-preserving receipt for all media" time="0.005354" classname="test"/>
+	<testcase name="locale changes wording but not semantic identity or translation digest" time="0.002641" classname="test"/>
+	<testcase name="large project rendering stays grouped and keeps deterministic fact order" time="0.076840" classname="test"/>
+	<testcase name="project translation fails closed on incomplete, invalid, or mismatched input" time="0.001063" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 113.743183 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="public AI-native demo closes the expense approval path without API keys" time="1.083010" classname="test"/>
+	<!-- tests 1 -->
+	<!-- suites 0 -->
+	<!-- pass 1 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 1111.974109 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="root source license is the unmodified MPL 2.0 text" time="0.001504" classname="test"/>
+	<testcase name="the previous preview license is preserved as a historical asset license" time="0.000245" classname="test"/>
+	<testcase name="the RC1 license and sealed archive digests remain unchanged" time="0.001262" classname="test"/>
+	<testcase name="current source documentation no longer describes the runtime as closed" time="0.000327" classname="test"/>
+	<testcase name="new source policy contains no personal email or private checkout path" time="0.001351" classname="test"/>
+	<testcase name="published entry points do not retain the previous repository account" time="0.001019" classname="test"/>
+	<testcase name="source import inventory is explicit, path-safe, and digest-bound" time="0.029433" classname="test"/>
+	<testcase name="no personal email or private checkout path occurs in imported source" time="0.125174" classname="test"/>
+	<testcase name="new source roots contain exactly the files in the import manifest" time="0.181174" classname="test"/>
+	<!-- tests 9 -->
+	<!-- suites 0 -->
+	<!-- pass 9 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 364.290376 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="review manifest binds to the graph revision and exposes stable anchors" time="0.014205" classname="test"/>
+	<testcase name="review manifest changes when the graph changes but stays revision-pinned" time="0.011367" classname="test"/>
+	<testcase name="review manifest represents a zero-argument effect without inventing a parameter" time="0.007385" classname="test"/>
+	<testcase name="review manifest projects the schema-bound fs path parameter" time="0.004466" classname="test"/>
+	<testcase name="review manifest projects every multi-call parameter deterministically" time="0.003518" classname="test"/>
+	<testcase name="review manifest preserves the fs.write bytes parameter endpoint" time="0.003223" classname="test"/>
+	<testcase name="canonical graph re-entry keeps the review revision stable" time="0.008843" classname="test"/>
+	<testcase name="project review index pages stable UID anchored facts" time="0.015745" classname="test"/>
+	<testcase name="project review index supports changed-since without becoming truth source" time="0.009318" classname="test"/>
+	<testcase name="project review index fails closed for invalid paging inputs" time="0.003552" classname="test"/>
+	<testcase name="project review index requires a validated module interface digest" time="0.003397" classname="test"/>
+	<testcase name="project review facts expand by revision-pinned stable fact ID" time="0.003535" classname="test"/>
+	<testcase name="project review fact expansion rejects stale or unknown identities" time="0.003551" classname="test"/>
+	<!-- tests 13 -->
+	<!-- suites 0 -->
+	<!-- pass 13 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 158.377774 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="runtime receipts capture exact success and failure observations for demo capabilities" time="0.096951" classname="test"/>
+	<testcase name="pure std operations and process.exit produce no runtime effect receipt" time="0.206567" classname="test"/>
+	<testcase name="runtime demand identities survive unrelated UID allocation and fresh CLI processes" time="0.208549" classname="test"/>
+	<testcase name="repeated equivalent host demands retain multiplicity with stable occurrence identities" time="0.001318" classname="test"/>
+	<testcase name="check, manifest, translation, and view preserve one checked effect identity" time="0.011445" classname="test"/>
+	<testcase name="receipt capture faults cannot suppress or replace a host invocation" time="0.000732" classname="test"/>
+	<testcase name="runtime receipt records sanitized adapter faults instead of raw exception details" time="0.002701" classname="test"/>
+	<testcase name="host invocation observation hooks are snapshotted at bind time" time="0.000898" classname="test"/>
+	<testcase name="runtime effect receipt observes a real loopback HTTP request and connection refusal" time="0.043889" classname="test"/>
+	<testcase name="CLI receipt opt-in leaves the default JSON envelope unchanged and emits no receipt for pure runs" time="0.458198" classname="test"/>
+	<!-- tests 10 -->
+	<!-- suites 0 -->
+	<!-- pass 10 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 1115.556824 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="REG-001 loads and resolves an exact schema revision" time="0.003489" classname="test"/>
+	<testcase name="REG-007 pins a schema revision to a stable content digest" time="0.000568" classname="test"/>
+	<testcase name="REG-008 keeps operation cancellation contracts closed and digest-bound" time="0.000885" classname="test"/>
+	<testcase name="REG-009 keeps resource access constructors explicit and parameter-bound" time="0.000388" classname="test"/>
+	<testcase name="REG-010 normalizes access parameter spacing and rejects empty parameters" time="0.000487" classname="test"/>
+	<testcase name="REG-011 binds equivalent access parameter spellings to one digest" time="0.000581" classname="test"/>
+	<testcase name="REG-012 requires explicit one-hop resource aliases and canonicalizes them" time="0.000662" classname="test"/>
+	<testcase name="REG-013 validates explicit resource parents without implementing overlap" time="0.001398" classname="test"/>
+	<testcase name="P0-07 instantiates only explicit typed resource catalog entries" time="0.001333" classname="test"/>
+	<testcase name="P0-07 rejects malformed adapter-facing resource catalog declarations" time="0.000503" classname="test"/>
+	<testcase name="P0-07 resolves explicit parent lineage after alias canonicalization" time="0.000702" classname="test"/>
+	<testcase name="P0-07 requires catalog entries for instantiated parent constructors" time="0.000224" classname="test"/>
+	<testcase name="REG-005 does not fall back to another schema revision" time="0.000236" classname="test"/>
+	<testcase name="REG-004 rejects conflicting definitions atomically" time="0.000269" classname="test"/>
+	<testcase name="REG-006 rejects a member with more than one primary parameter" time="0.000187" classname="test"/>
+	<testcase name="registry rejects a result whose error sum is not defined" time="0.000150" classname="test"/>
+	<testcase name="registry rejects duplicate variants in a closed error sum" time="0.000137" classname="test"/>
+	<testcase name="registry rejects an empty closed error sum" time="0.000140" classname="test"/>
+	<testcase name="registry rejects malformed error sum variants without throwing" time="0.000119" classname="test"/>
+	<testcase name="REG-002 deduplicates byte-identical definitions" time="0.000323" classname="test"/>
+	<testcase name="REG-002 canonicalizes name-indexed parameters before deduplication" time="0.000260" classname="test"/>
+	<testcase name="REG-002 canonicalizes closed error variants before deduplication" time="0.000260" classname="test"/>
+	<testcase name="REG-003 produces the same resolutions regardless of load order" time="0.000618" classname="test"/>
+	<testcase name="REG-001 loads all four built-in Demo capability interfaces" time="0.001025" classname="test"/>
+	<testcase name="loaded schema definitions cannot drift through caller mutation" time="0.000233" classname="test"/>
+	<!-- tests 25 -->
+	<!-- suites 0 -->
+	<!-- pass 25 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 44.01267 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="semantic view IR derives one fact identity across locales" time="0.003521" classname="test"/>
+	<testcase name="semantic view rejects unsupported locale and keeps ledger evidence" time="0.000943" classname="test"/>
+	<!-- tests 2 -->
+	<!-- suites 0 -->
+	<!-- pass 2 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 27.147365 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Server config environment adapter is an explicit host adapter" time="0.001003" classname="test"/>
+	<testcase name="Server config environment adapter passes the shared config corpus" time="0.001065" classname="test"/>
+	<testcase name="Server config environment adapter snapshots only explicit string values" time="0.000484" classname="test"/>
+	<testcase name="Server profile accepts the shared config contract and rejects the old memory identity" time="0.011654" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 49.546277 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Server db.sql driver adapter passes the shared SQL corpus" time="0.002870" classname="test"/>
+	<testcase name="Server db.sql driver receives one copied exact operation" time="0.000303" classname="test"/>
+	<testcase name="db.sql operation keys use typed array internal bytes" time="0.000626" classname="test"/>
+	<testcase name="Server db.sql driver validates typed outcomes and closes failures" time="0.000438" classname="test"/>
+	<testcase name="Server db.sql driver snapshots method authority" time="0.000351" classname="test"/>
+	<testcase name="Server profile accepts shared SQL contract and rejects the old identity" time="0.011587" classname="test"/>
+	<!-- tests 6 -->
+	<!-- suites 0 -->
+	<!-- pass 6 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 51.879507 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Node SQLite driver commits parameterized writes through the Server profile" time="0.013606" classname="test"/>
+	<testcase name="Node SQLite driver rolls back and closes transaction tokens" time="0.001005" classname="test"/>
+	<testcase name="Node SQLite driver fails closed before unsafe or ambiguous execution" time="0.001539" classname="test"/>
+	<testcase name="Node SQLite driver snapshots direct bound parameter bytes before decoding" time="0.000678" classname="test"/>
+	<testcase name="Node SQLite driver validates construction and stable row values" time="0.001728" classname="test"/>
+	<testcase name="Node SQLite driver snapshots query rows before serialization" time="0.001188" classname="test"/>
+	<testcase name="Node SQLite driver snapshots statement columns before dispatch" time="0.002428" classname="test"/>
+	<testcase name="Node SQLite driver snapshots database and statement method authority" time="0.000894" classname="test"/>
+	<!-- tests 8 -->
+	<!-- suites 0 -->
+	<!-- pass 8 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 59.380774 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="db.sql schema separates statements from bound parameters" time="0.007318" classname="test"/>
+	<testcase name="db.sql memory adapter replays statements through explicit transactions" time="0.003700" classname="test"/>
+	<testcase name="db.sql memory adapter ignores overridden outcome registry iteration" time="0.000425" classname="test"/>
+	<testcase name="db.sql memory adapter ignores overridden commit conflict iteration" time="0.000258" classname="test"/>
+	<testcase name="db.sql memory adapter ignores overridden transaction queue iteration" time="0.000358" classname="test"/>
+	<testcase name="db.sql memory adapter rejects invalid fixture outcomes" time="0.000524" classname="test"/>
+	<!-- tests 6 -->
+	<!-- suites 0 -->
+	<!-- pass 6 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 37.278595 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="SQLite connection set bounds leases and runs two serial text-boundary reads" time="0.016186" classname="test"/>
+	<testcase name="SQLite connection set snapshots close authority and rejects invalid ownership" time="0.003235" classname="test"/>
+	<testcase name="SQLite connection set closes on an external file-handle close" time="0.002409" classname="test"/>
+	<testcase name="SQLite connection set sanitizes busy-timeout configuration failure" time="0.001921" classname="test"/>
+	<testcase name="SQLite connection set applies a bounded busy timeout to every connection" time="0.036356" classname="test"/>
+	<testcase name="SQLite connection set bounds cross-process lock contention and recovers" time="0.089251" classname="test"/>
+	<testcase name="SQLite connection set isolates cross-process busy failures across leases" time="0.089273" classname="test"/>
+	<testcase name="SQLite connection wait queue is bounded and grants leases in FIFO order" time="0.004215" classname="test"/>
+	<testcase name="SQLite connection wait timeout removes the waiter without a late lease" time="0.002133" classname="test"/>
+	<testcase name="SQLite connection wait timeout uses the default Node timer and leaves no late lease" time="0.022247" classname="test"/>
+	<testcase name="SQLite connection wait release clears the default Node timer" time="0.122257" classname="test"/>
+	<testcase name="SQLite connection wait cancellation never consumes or later receives a lease" time="0.001474" classname="test"/>
+	<testcase name="parent cancellation of a queued SQLite lease cannot grant it after release" time="0.007057" classname="test"/>
+	<testcase name="SQLite connection wait snapshots and cleans cancellation authority" time="0.001478" classname="test"/>
+	<testcase name="SQLite connection wait removes cancellation listeners on every terminal path" time="0.001267" classname="test"/>
+	<testcase name="SQLite connection waiters close with the set and timer authority is snapshotted" time="0.001192" classname="test"/>
+	<!-- tests 16 -->
+	<!-- suites 0 -->
+	<!-- pass 16 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 439.061073 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="explicit SQLite file handle persists the business text boundary across reopen" time="0.014122" classname="test"/>
+	<testcase name="SQLite file handle snapshots close authority and rejects repeated close" time="0.002298" classname="test"/>
+	<testcase name="SQLite file handle rejects relative, URL-like, directory, and escaping symlink paths" time="0.002572" classname="test"/>
+	<testcase name="SQLite file handle sanitizes invalid external file content without leaking path" time="0.002381" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 51.043749 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Node fetch transport reaches loopback through bindServerProfile invokeAsync" time="0.045579" classname="test"/>
+	<testcase name="Node fetch transport maps redirect and deadline policies to closed errors" time="0.019791" classname="test"/>
+	<testcase name="Node fetch transport validates requests, copies bytes, and closes failures" time="0.003290" classname="test"/>
+	<testcase name="Node fetch transport snapshots response status and text capabilities" time="0.000378" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 168.902472 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Node TLS transport performs a trusted loopback handshake with bearer auth" time="0.348190" classname="test"/>
+	<testcase name="Node TLS transport sanitizes auth, trust, deadline, and connection faults" time="0.298225" classname="test"/>
+	<!-- tests 2 -->
+	<!-- suites 0 -->
+	<!-- pass 2 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 757.807371 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Server HTTP client transport adapter passes the shared HTTP corpus" time="0.002349" classname="test"/>
+	<testcase name="Server HTTP client transport receives one copied exact request" time="0.000352" classname="test"/>
+	<testcase name="HTTP client request keys use typed array internal bytes" time="0.000694" classname="test"/>
+	<testcase name="Server HTTP client transport fails closed for invalid requests and drivers" time="0.000468" classname="test"/>
+	<testcase name="Server profile accepts shared HTTP contract and rejects the old identity" time="0.011298" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 51.534985 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="connection policy validates exact fields, integer bounds, and timeout order" time="0.002202" classname="test"/>
+	<testcase name="connection policy rolls every server back when one assignment fails" time="0.001422" classname="test"/>
+	<testcase name="connection policy orders server summaries by UTF-8 bytes" time="0.000811" classname="test"/>
+	<testcase name="connection policy ignores overridden server registry iteration" time="0.000425" classname="test"/>
+	<testcase name="connection policy apply and restore are idempotent and drift-safe" time="0.000433" classname="test"/>
+	<testcase name="connection policy keeps applied values after restore failure and allows retry" time="0.000456" classname="test"/>
+	<testcase name="real Node server applies maxRequestsPerSocket and restores original properties" time="0.019640" classname="test"/>
+	<!-- tests 7 -->
+	<!-- suites 0 -->
+	<!-- pass 7 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 63.478393 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Node HTTP server driver completes a real loopback lifecycle through the profile" time="0.057131" classname="test"/>
+	<testcase name="Node HTTP server driver rejects invalid response headers without cancelling the request" time="0.013189" classname="test"/>
+	<testcase name="Node HTTP server driver rejects malformed request header values" time="0.009546" classname="test"/>
+	<testcase name="Node HTTP server driver rejects malformed request method and path" time="0.010146" classname="test"/>
+	<testcase name="Node HTTP server driver rejects unpaired surrogates without rejecting astral text" time="0.010005" classname="test"/>
+	<testcase name="Node HTTP server driver streams bounded response chunks in order" time="0.009207" classname="test"/>
+	<testcase name="Node HTTP server driver exposes blocked writes and FIFO drain wait" time="0.008113" classname="test"/>
+	<testcase name="Node HTTP server driver terminates a response stream on bounded overflow" time="0.006519" classname="test"/>
+	<testcase name="Node HTTP server driver settles a drain waiter when response ends" time="0.007959" classname="test"/>
+	<testcase name="Node HTTP server driver closes a blocked drain waiter on cancel" time="0.005173" classname="test"/>
+	<testcase name="Node HTTP server driver enforces body limits and closes repeated terminal calls" time="0.005336" classname="test"/>
+	<testcase name="Node HTTP server byte snapshots use typed array internal authority" time="0.000649" classname="test"/>
+	<testcase name="concurrent body calls project the same read through each requested limit" time="0.008778" classname="test"/>
+	<testcase name="content length over the first body limit fails before payload data arrives" time="0.005020" classname="test"/>
+	<testcase name="Node HTTP server driver maps explicit cancel and client disconnect to cancelled" time="0.008913" classname="test"/>
+	<testcase name="Node HTTP server driver keeps concurrent request tokens and responses isolated" time="0.005941" classname="test"/>
+	<testcase name="Node HTTP server driver ignores overridden listener registry iteration" time="0.000215" classname="test"/>
+	<testcase name="Node HTTP server driver snapshots listener capabilities before later faults" time="0.000275" classname="test"/>
+	<testcase name="Node HTTP server route registry returns stable decoded params and prefers static routes" time="0.006620" classname="test"/>
+	<testcase name="Node HTTP server route registry ignores overridden iteration and array methods" time="0.004977" classname="test"/>
+	<testcase name="Node HTTP server route definitions are snapshotted before later faults" time="0.002784" classname="test"/>
+	<testcase name="Node HTTP server request metadata is snapshotted before later faults" time="0.000567" classname="test"/>
+	<testcase name="Node HTTP server accepted request metadata stays frozen after dispatch" time="0.000419" classname="test"/>
+	<testcase name="Node HTTP server accepted request headers stay frozen after dispatch" time="0.000581" classname="test"/>
+	<testcase name="Node HTTP server request envelope precedes response capability side effects" time="0.000466" classname="test"/>
+	<testcase name="Node HTTP server header field descriptors precede getter side effects" time="0.000437" classname="test"/>
+	<testcase name="Node HTTP server header value lists ignore overridden array methods" time="0.000332" classname="test"/>
+	<testcase name="Node HTTP server accepted request capabilities stay frozen after dispatch" time="0.000601" classname="test"/>
+	<testcase name="Node HTTP server request capability descriptors precede getter side effects" time="0.000310" classname="test"/>
+	<testcase name="Node HTTP server accepted response capabilities stay frozen after dispatch" time="0.000653" classname="test"/>
+	<testcase name="Node HTTP server response transport uses frozen write and drain capabilities" time="0.000543" classname="test"/>
+	<testcase name="Node HTTP server pre-accept rejection uses one response capability snapshot" time="0.000418" classname="test"/>
+	<testcase name="Node HTTP server close uses the frozen writableEnded observer" time="0.000338" classname="test"/>
+	<testcase name="Node HTTP server rejection uses the frozen statusCode writer" time="0.000209" classname="test"/>
+	<testcase name="Node HTTP server response method descriptors precede getter side effects" time="0.000234" classname="test"/>
+	<testcase name="Node HTTP server response limits use copied Uint8Array length" time="0.000285" classname="test"/>
+	<testcase name="unmatched and malformed paths do not consume an accept waiter" time="0.008867" classname="test"/>
+	<testcase name="route registry rejects ambiguous patterns and duplicate parameters" time="0.000772" classname="test"/>
+	<testcase name="concurrent matched routes keep parameter maps isolated" time="0.005471" classname="test"/>
+	<testcase name="requests without accept waiters get 503 and accept saturation is bounded" time="0.003732" classname="test"/>
+	<testcase name="graceful drain rejects new work and waits active requests to respond" time="0.006445" classname="test"/>
+	<testcase name="graceful drain rejects an invalid clock before entering draining" time="0.003806" classname="test"/>
+	<testcase name="graceful drain cancels remaining requests at an injected monotonic deadline" time="0.004450" classname="test"/>
+	<testcase name="driver close wins a drain race, cancels requests, and removes listeners" time="0.003382" classname="test"/>
+	<testcase name="graceful drain waits active requests across multiple listeners" time="0.002919" classname="test"/>
+	<!-- tests 45 -->
+	<!-- suites 0 -->
+	<!-- pass 45 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 293.568728 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Server HTTP server socket adapter preserves the shared request lifecycle" time="0.002691" classname="test"/>
+	<testcase name="Server HTTP server socket adapter copies request and response bytes" time="0.000443" classname="test"/>
+	<testcase name="Server HTTP server socket adapter rejects typed array proxy bytes" time="0.000312" classname="test"/>
+	<testcase name="Server HTTP server socket driver bind overrides cannot replace method authority" time="0.000237" classname="test"/>
+	<testcase name="Server HTTP server socket driver bind accessor faults do not reject a valid method" time="0.000429" classname="test"/>
+	<testcase name="Server HTTP server socket driver member is snapshotted before later spoofing" time="0.000243" classname="test"/>
+	<testcase name="Server HTTP server socket driver member is snapshotted before later faults" time="0.000280" classname="test"/>
+	<testcase name="Server HTTP server socket adapter preserves bounded response streaming" time="0.000716" classname="test"/>
+	<testcase name="Server HTTP server socket adapter closes invalid driver outcomes" time="0.000617" classname="test"/>
+	<testcase name="Server HTTP server socket adapter normalizes Promise driver outcomes" time="0.000686" classname="test"/>
+	<testcase name="Server HTTP server socket adapter preserves first body read authority" time="0.000270" classname="test"/>
+	<testcase name="Server profile accepts shared HTTP server contract and rejects old identity" time="0.010609" classname="test"/>
+	<!-- tests 12 -->
+	<!-- suites 0 -->
+	<!-- pass 12 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 55.390042 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="http.server schema fixes bounded request lifecycle members" time="0.001952" classname="test"/>
+	<testcase name="http.server memory adapter exposes fields and closes responded requests" time="0.003938" classname="test"/>
+	<testcase name="http.server memory adapter ignores overridden request array methods" time="0.000301" classname="test"/>
+	<testcase name="http.server memory adapter closes cancellation and body errors" time="0.000364" classname="test"/>
+	<testcase name="http.server memory adapter freezes the first body read authority" time="0.000313" classname="test"/>
+	<testcase name="invalid body limits do not freeze memory read authority and copies stay isolated" time="0.000319" classname="test"/>
+	<testcase name="http.server memory adapter bounds response streaming and copies chunks" time="0.000721" classname="test"/>
+	<testcase name="http.server memory adapter closes a response stream on overflow" time="0.000332" classname="test"/>
+	<testcase name="http.server memory adapter rejects proxy response bytes before recording" time="0.000893" classname="test"/>
+	<testcase name="http.server memory adapter rejects proxy request bytes at construction" time="0.000916" classname="test"/>
+	<testcase name="http.server memory adapter uses internal chunk length for limits" time="0.000375" classname="test"/>
+	<testcase name="http.server memory adapter uses internal response length for limits" time="0.000241" classname="test"/>
+	<!-- tests 12 -->
+	<!-- suites 0 -->
+	<!-- pass 12 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 36.087083 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="shutdown coordinator drains a real active request and closes its server" time="0.031465" classname="test"/>
+	<testcase name="shutdown coordinator registers idempotently and only the first allowed signal wins" time="0.000737" classname="test"/>
+	<testcase name="shutdown coordinator snapshots signal and driver capabilities before later faults" time="0.000718" classname="test"/>
+	<testcase name="shutdown coordinator snapshots server close capabilities before later faults" time="0.000630" classname="test"/>
+	<testcase name="deadline drain forces remaining connections before server close settles" time="0.000859" classname="test"/>
+	<testcase name="stop-before-signal is inert and close failures are sanitized" time="0.000542" classname="test"/>
+	<testcase name="shutdown coordinator rejects drain outcomes with extra or unstable fields" time="0.000801" classname="test"/>
+	<testcase name="shutdown coordinator snapshots drain outcome fields before classification and summary" time="0.000673" classname="test"/>
+	<testcase name="shutdown coordinator rejects an invalid monotonic clock before draining" time="0.000868" classname="test"/>
+	<!-- tests 9 -->
+	<!-- suites 0 -->
+	<!-- pass 9 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 85.312321 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Server JSON codec adapter passes the shared JSON corpus" time="0.002284" classname="test"/>
+	<testcase name="Server JSON codec adapter sorts object keys and rejects invalid JSON values" time="0.000500" classname="test"/>
+	<testcase name="Server JSON codec registry ignores an overridden iterator" time="0.000390" classname="test"/>
+	<testcase name="Server JSON codec snapshots methods and ignores method-owned bind faults" time="0.000367" classname="test"/>
+	<testcase name="Server profile accepts the shared JSON contract and rejects the old identity" time="0.011786" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 50.883 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="mixed Server profile binds all ten capabilities and routes by instance" time="0.012410" classname="test"/>
+	<testcase name="HostEnvironment routes two explicit instances of one capability independently" time="0.002473" classname="test"/>
+	<testcase name="HostEnvironment rejects duplicate capability instance declarations before dispatch" time="0.001902" classname="test"/>
+	<testcase name="HostEnvironment keeps multi-instance binding diagnostics stable and fail closed" time="0.010541" classname="test"/>
+	<testcase name="HostEnvironment exposes an explicit async invocation boundary" time="0.003362" classname="test"/>
+	<testcase name="HostEnvironment keeps async completion order isolated by instance" time="0.002239" classname="test"/>
+	<testcase name="HostEnvironment async invocation preserves declared errors and sanitizes rejection" time="0.002758" classname="test"/>
+	<testcase name="HostEnvironment async front door rejects without calling the adapter" time="0.002330" classname="test"/>
+	<testcase name="mixed Server profile isolates dispatch by instance and adapter marker" time="0.006314" classname="test"/>
+	<testcase name="mixed Server profile sanitizes host faults for every capability" time="0.027624" classname="test"/>
+	<testcase name="mixed Server profile rejects every capability at the front door" time="0.049022" classname="test"/>
+	<testcase name="Server profile rejects unknown and drifted schema references before binding" time="0.007143" classname="test"/>
+	<testcase name="HostEnvironment rejects instance alias and ambiguous adapter bindings" time="0.001067" classname="test"/>
+	<testcase name="HostEnvironment sorts every cross-capability alias diagnostic deterministically" time="0.049966" classname="test"/>
+	<testcase name="mixed Server profile exposes exact metadata and isolated resource routing" time="0.002703" classname="test"/>
+	<testcase name="cross-profile binding fails closed for missing, legacy, contract and resource drift" time="0.005766" classname="test"/>
+	<testcase name="profile digest changes on schema drift before adapter invocation" time="0.001969" classname="test"/>
+	<!-- tests 17 -->
+	<!-- suites 0 -->
+	<!-- pass 17 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 231.325538 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="minimum Server profile is deterministic and exact-revision pinned" time="0.009420" classname="test"/>
+	<testcase name="Server profile identity changes when the capability schema changes" time="0.021694" classname="test"/>
+	<testcase name="Server config memory adapter passes the shared conformance corpus" time="0.000836" classname="test"/>
+	<testcase name="Server config memory adapter ignores overridden registry iteration" time="0.000192" classname="test"/>
+	<testcase name="Server monotonic clock adapter replays nondecreasing instants and exhausts closed" time="0.000664" classname="test"/>
+	<testcase name="Server monotonic clock adapter ignores overridden instant iteration" time="0.000178" classname="test"/>
+	<testcase name="Server random adapter replays exact-length bytes and returns closed errors" time="0.000599" classname="test"/>
+	<testcase name="Server random adapter ignores overridden chunk array methods" time="0.000167" classname="test"/>
+	<testcase name="Server secret adapter replays immutable bytes and closed errors" time="0.000750" classname="test"/>
+	<testcase name="Server secret memory adapter ignores overridden registry iteration" time="0.000519" classname="test"/>
+	<testcase name="Server log adapter appends exact structured entries or returns unavailable" time="0.000376" classname="test"/>
+	<testcase name="Server trace adapter appends exact structured events or returns unavailable" time="0.000270" classname="test"/>
+	<testcase name="Server JSON adapter selects an explicit schema for encode/decode" time="0.000513" classname="test"/>
+	<testcase name="Server JSON memory adapter ignores overridden schema registry iteration" time="0.000199" classname="test"/>
+	<testcase name="Server HTTP client replays exact requests and closed transport errors" time="0.000640" classname="test"/>
+	<testcase name="Server HTTP client memory adapter ignores overridden registry iteration" time="0.000170" classname="test"/>
+	<testcase name="Server profile binds exact adapter metadata and invokes declared errors" time="0.011828" classname="test"/>
+	<testcase name="Server profile fails closed on unknown revision and metadata mismatch" time="0.021021" classname="test"/>
+	<!-- tests 18 -->
+	<!-- suites 0 -->
+	<!-- pass 18 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 109.477807 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Server secret deployment adapter is an explicit host adapter" time="0.000985" classname="test"/>
+	<testcase name="Server secret deployment adapter passes the shared secret corpus" time="0.001191" classname="test"/>
+	<testcase name="Server secret deployment adapter copies injected and returned bytes" time="0.000582" classname="test"/>
+	<testcase name="Server secret deployment adapter ignores overridden registry iteration" time="0.000213" classname="test"/>
+	<testcase name="Server secret deployment adapter closes and revokes its injected snapshot" time="0.000449" classname="test"/>
+	<testcase name="Server profile accepts shared secret contract and rejects the old identity" time="0.012294" classname="test"/>
+	<!-- tests 6 -->
+	<!-- suites 0 -->
+	<!-- pass 6 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 50.091173 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="macOS Keychain adapter reads explicit accounts through the Server profile" time="0.000945" classname="test">
+		<skipped type="skipped" message="true"/>
+	</testcase>
+	<testcase name="macOS Keychain adapter snapshots targets and never invokes a shell" time="0.001518" classname="test"/>
+	<testcase name="macOS Keychain adapter ignores overridden registry iteration" time="0.000484" classname="test"/>
+	<testcase name="macOS Keychain adapter closes command and output failures" time="0.001167" classname="test"/>
+	<testcase name="macOS Keychain adapter validates explicit metadata and shared contract" time="0.000780" classname="test"/>
+	<testcase name="macOS Keychain fixture reports an unavailable host without failing conformance" time="0.001037" classname="test"/>
+	<testcase name="macOS Keychain fixture sanitizes bootstrap spawn faults as unavailable" time="0.000294" classname="test"/>
+	<testcase name="macOS Keychain fixture cleans a keychain whose unlock is unavailable" time="0.000392" classname="test"/>
+	<testcase name="macOS Keychain fixture keeps post-bootstrap command regressions visible" time="0.001438" classname="test"/>
+	<!-- tests 9 -->
+	<!-- suites 0 -->
+	<!-- pass 8 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 1 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 44.715661 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="source decoder accepts exact UTF-8 without rewriting text" time="0.001543" classname="test"/>
+	<testcase name="source decoder rejects malformed UTF-8 at a stable byte offset" time="0.000495" classname="test"/>
+	<testcase name="source decoder rejects a UTF-8 byte order mark explicitly" time="0.000178" classname="test"/>
+	<!-- tests 3 -->
+	<!-- suites 0 -->
+	<!-- pass 3 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 21.442759 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="replace-input updates exactly one call argument when the expected endpoint matches" time="0.019688" classname="test"/>
+	<testcase name="replace-input rejects a stale old endpoint and rolls back atomically" time="0.001724" classname="test"/>
+	<testcase name="patched canonical remains checked and executable" time="0.006261" classname="test"/>
+	<testcase name="a revision-pinned patch applies multiple input replacements atomically" time="0.006976" classname="test"/>
+	<testcase name="a stale graph revision rejects the whole patch before editing" time="0.002773" classname="test"/>
+	<testcase name="a later operation conflict rolls back earlier operations in the batch" time="0.002012" classname="test"/>
+	<!-- tests 6 -->
+	<!-- suites 0 -->
+	<!-- pass 6 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 95.669442 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="task contract is typed, finite, and declaration-order independent" time="0.003207" classname="test"/>
+	<testcase name="task identity binds agent, module, node, revision, input, and caller key" time="0.001017" classname="test"/>
+	<testcase name="task contract rejects unbounded retry, detached node, and extra fields" time="0.000609" classname="test"/>
+	<testcase name="task contract rejects malformed checkpoint and retry policy" time="0.000474" classname="test"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 27.635305 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="task runtime lifecycle report freezes the complete reference corpus" time="0.042842" classname="test"/>
+	<testcase name="task runtime lifecycle receipt fixes cancellation, cleanup, retry, and replay facts" time="0.006785" classname="test"/>
+	<testcase name="task runtime lifecycle verifier rejects workload set drift" time="0.012669" classname="test"/>
+	<testcase name="task runtime lifecycle verifier rejects synchronized request authority forgery" time="0.041446" classname="test"/>
+	<testcase name="task runtime lifecycle verifier rejects synchronized result and receipt forgery" time="0.038201" classname="test"/>
+	<!-- tests 5 -->
+	<!-- suites 0 -->
+	<!-- pass 5 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 169.189767 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="task runtime retries transient errors with finite deterministic backoff" time="0.004663" classname="test"/>
+	<testcase name="permanent errors stop without implicit retry" time="0.000749" classname="test"/>
+	<testcase name="replay does not duplicate committed effects and duplicate keys fail closed" time="0.001942" classname="test"/>
+	<testcase name="checkpoint replay, cancellation, and cancel race are explicit" time="0.003023" classname="test"/>
+	<testcase name="in-flight deadline waits cooperative cleanup, closes once, and cannot late-commit" time="0.000933" classname="test"/>
+	<testcase name="performer host fault still clears deadline and closes the resource once" time="0.002446" classname="test"/>
+	<testcase name="parent cancellation wins a later timeout and removes its listener once" time="0.001241" classname="test"/>
+	<testcase name="checkpoint rejection still clears deadline and closes the accepted resource" time="0.000649" classname="test"/>
+	<testcase name="an already-aborted parent signal cancels before the performer starts" time="0.000580" classname="test"/>
+	<testcase name="resource close failure rejects a would-be successful terminal result" time="0.000835" classname="test"/>
+	<testcase name="task lifecycle snapshots signal capabilities once before listener registration" time="0.000590" classname="test"/>
+	<testcase name="task lifecycle listener registration failure rolls back the listener and resource" time="0.000559" classname="test"/>
+	<testcase name="task lifecycle cleanup attempts timer, signal, and resource cleanup while preserving the first fault" time="0.000990" classname="test"/>
+	<testcase name="task terminal cleanup preserves the first cleanup diagnostic and rolls back a new effect" time="0.000590" classname="test"/>
+	<testcase name="task resource close uses a construction-time bound method snapshot" time="0.000461" classname="test"/>
+	<testcase name="task timer setup failure cleans the listener and resource without replacing the timer diagnostic" time="0.000454" classname="test"/>
+	<testcase name="task lifecycle clears an established timer even when its handle is null" time="0.000429" classname="test"/>
+	<!-- tests 17 -->
+	<!-- suites 0 -->
+	<!-- pass 17 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 46.49182 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="toolchain fails closed on header errors before parsing a body" time="0.002425" classname="test"/>
+	<testcase name="production compact parser enforces the shared V1 source boundaries" time="0.004224" classname="test"/>
+	<testcase name="toolchain evaluates source values instead of hard-coding Hello World" time="0.011272" classname="test"/>
+	<testcase name="production source can invoke the frozen zero-argument process args capability" time="0.009382" classname="test"/>
+	<testcase name="process args remains zero-argument and rejects invented inputs" time="0.001351" classname="test"/>
+	<testcase name="production source can invoke the frozen fs read capability" time="0.015673" classname="test"/>
+	<testcase name="fs read path accepts its schema name and does not infer a missing path" time="0.001618" classname="test"/>
+	<testcase name="fs read accepts explicit frozen UTF-8 encoding with two named arguments" time="0.004805" classname="test"/>
+	<testcase name="fs read multi-argument syntax rejects unknown encoding and trailing comma" time="0.000829" classname="test"/>
+	<testcase name="production source can write an exact bytes literal through fs.write" time="0.006675" classname="test"/>
+	<testcase name="fs.write rejects malformed bytes source values" time="0.000765" classname="test"/>
+	<testcase name="hex-tagged strings are ordinary text outside exact fs.write data" time="0.004316" classname="test"/>
+	<testcase name="compact string values are NFC before execution and canonicalization" time="0.004727" classname="test"/>
+	<testcase name="arbitrary precision integers reach the exact operation range checker" time="0.001429" classname="test"/>
+	<testcase name="production parser shares V1 numeric token diagnostics" time="0.002415" classname="test"/>
+	<testcase name="production decimal reaches the exact operation type checker" time="0.000608" classname="test"/>
+	<testcase name="production parser rejects decimal scale above the V1 bound" time="0.000415" classname="test"/>
+	<testcase name="production parser never reinterprets canonical labels as compact aliases" time="0.000235" classname="test"/>
+	<testcase name="evaluator consumes the declared stdout error through the err branch" time="0.005421" classname="test"/>
+	<testcase name="match semantics do not depend on ok and err arm source order" time="0.005539" classname="test"/>
+	<testcase name="value edges, not statement order, determine execution dependencies" time="0.002931" classname="test"/>
+	<testcase name="checker reports an unknown value edge at its reference" time="0.000400" classname="test"/>
+	<testcase name="checker emits pinned calls and explicit producer edges" time="0.000457" classname="test"/>
+	<testcase name="semantic view IR binds facts to evidence and graph revision" time="0.002309" classname="test"/>
+	<testcase name="semantic view locale renderers share the same fact identity" time="0.003906" classname="test"/>
+	<testcase name="semantic view HTML is generated from the same revision-pinned facts" time="0.001459" classname="test"/>
+	<testcase name="semantic view SVG is generated from the same revision-pinned facts" time="0.001144" classname="test"/>
+	<testcase name="review index source emits deterministic project facts" time="0.014042" classname="test"/>
+	<testcase name="profile source emits a deterministic path-free benchmark descriptor" time="0.002100" classname="test"/>
+	<testcase name="profile source assigns deterministic identity to compact input" time="0.001711" classname="test"/>
+	<testcase name="build artifact embeds offline semantic view and review index evidence" time="0.010691" classname="test"/>
+	<testcase name="schema parameter names can replace primary argument shorthand" time="0.005274" classname="test"/>
+	<testcase name="checker explains how to repair an unknown named argument" time="0.000388" classname="test"/>
+	<testcase name="checker rejects a non-exhaustive result match before execution" time="0.000356" classname="test"/>
+	<testcase name="checker rejects duplicate result match variants" time="0.000350" classname="test"/>
+	<testcase name="checker rejects an unpinned capability reference" time="0.000318" classname="test"/>
+	<testcase name="checker reports one root diagnostic for an unknown capability member" time="0.000346" classname="test"/>
+	<testcase name="checker rejects an out-of-range process status before execution" time="0.000324" classname="test"/>
+	<testcase name="parser reports unsupported syntax instead of silently executing it" time="0.000215" classname="test"/>
+	<!-- tests 39 -->
+	<!-- suites 0 -->
+	<!-- pass 39 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 194.610344 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="tracked test runner floor matches the declared package engine" time="0.001149" classname="test"/>
+	<testcase name="Node validation uploads machine population and execution evidence" time="0.000447" classname="test"/>
+	<testcase name="population evidence corpus fixes clean, truncated, missing-report, and subset controls" time="0.000675" classname="test"/>
+	<testcase name="tracked test selection is sorted and ignores non-test files" time="0.000777" classname="test"/>
+	<testcase name="requested test subset cannot select probes, escape test root, or repeat paths" time="0.000955" classname="test"/>
+	<testcase name="tracked test selection fails closed on git errors and empty output" time="0.000431" classname="test"/>
+	<testcase name="tracked test runner fails closed when source revision or worktree status is unavailable" time="0.000787" classname="test"/>
+	<testcase name="tracked test runner invokes Node without a shell and returns stable status" time="0.001881" classname="test"/>
+	<testcase name="tracked test runner fails closed when a child has no exit status or signal" time="0.001694" classname="test"/>
+	<testcase name="tracked test population excludes untracked probes and binds executed files to JUnit evidence" time="0.001187" classname="test"/>
+	<testcase name="a successful child cannot hide truncated test discovery" time="0.001679" classname="test"/>
+	<testcase name="tracked test runner does not count an empty test report as executed" time="0.000688" classname="test"/>
+	<testcase name="full population gate fails when the discovered population differs from intent" time="0.000935" classname="test"/>
+	<testcase name="no-defect full population control keeps a complete successful run green" time="0.002184" classname="test"/>
+	<testcase name="population provenance changes when fixture, command, or source revision changes" time="0.004522" classname="test"/>
+	<testcase name="a passing explicit subset is not reported as a complete full population" time="0.001519" classname="test"/>
+	<testcase name="an explicit selection equal to the full intended population can be complete" time="0.000834" classname="test"/>
+	<testcase name="CLI refuses a green child run when discovered population differs from intent" time="0.123062" classname="test"/>
+	<testcase name="JUnit execution evidence rejects files outside the selected population" time="0.000404" classname="test"/>
+	<testcase name="tracked test runner rejects Node versions below the full-suite runtime floor before discovery or spawn" time="0.000289" classname="test"/>
+	<testcase name="tracked test runner accepts the declared Node floor and subsequent major versions" time="0.001407" classname="test"/>
+	<testcase name="bound Windows runner verifies the exact source-built executable before launch" time="0.000319" classname="test"/>
+	<!-- tests 22 -->
+	<!-- suites 0 -->
+	<!-- pass 22 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 174.650436 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="translator emits a path-free revision-bound execution artifact" time="0.020220" classname="test"/>
+	<testcase name="translator identity changes with graph, runtime, and target profile" time="0.015443" classname="test"/>
+	<testcase name="translator rejects unsupported graph constructs without partial artifact" time="0.000437" classname="test"/>
+	<!-- tests 3 -->
+	<!-- suites 0 -->
+	<!-- pass 3 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 87.144327 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="type/value corpus fixes the P0-04 numeric and key decisions" time="0.001125" classname="test"/>
+	<testcase name="every canonical value case matches its exact oracle" time="0.002560" classname="test"/>
+	<testcase name="int magnitude and decimal scale boundaries do not inherit host Number limits" time="0.000360" classname="test"/>
+	<testcase name="nominal declaration digest ignores field/variant order but preserves identity" time="0.001598" classname="test"/>
+	<testcase name="record, sum, and explicit generic instantiation share one declaration registry" time="0.001085" classname="test"/>
+	<testcase name="expense currency is a source-owned nominal closed sum" time="0.000828" classname="test"/>
+	<testcase name="canonical value bytes ignore input object and declaration member order" time="0.001181" classname="test"/>
+	<testcase name="record and sum values reject missing, excess, and unknown shapes" time="0.000516" classname="test"/>
+	<testcase name="only stable total-order scalar types and their newtypes are keys" time="0.000544" classname="test"/>
+	<testcase name="text key equality uses NFC before sorting and duplicate detection" time="0.000472" classname="test"/>
+	<testcase name="text.utf8 rejects isolated UTF-16 surrogates before key comparison" time="0.000233" classname="test"/>
+	<testcase name="type declarations fail closed on duplicate members and unknown fields" time="0.000354" classname="test"/>
+	<testcase name="lossy decimal rescale always names one closed rounding mode" time="0.000242" classname="test"/>
+	<!-- tests 13 -->
+	<!-- suites 0 -->
+	<!-- pass 13 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 36.329865 -->
+</testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="independent reference oracle agrees on canonical bytes for valid scalar/container corpus" time="0.002839" classname="test"/>
+	<testcase name="recursive generic data is guarded, finite, and exact-digest bound" time="0.002955" classname="test"/>
+	<testcase name="decimal scales and explicit rounding modes remain bounded and exact" time="0.000252" classname="test"/>
+	<!-- tests 3 -->
+	<!-- suites 0 -->
+	<!-- pass 3 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 29.319806 -->
+</testsuites>
