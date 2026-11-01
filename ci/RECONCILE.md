@@ -49,6 +49,19 @@ The Node 22 artifact reports `node 22.23.4` and the same counters; its own log
 hashes to `sha256:791e198a2df62e588c66b8b2db9f6ab29ebb339c8b9fa9f584f360fca47f8e26`,
 which matches its `execution_log_digest`.
 
+## The project's own validator accepts both reports
+
+```sh
+REVIA_HOME=<Revia-at-31fc3b4> node repro/validate.mjs ci/node-22.16.0/node-test-population.json ci/node-22.16.0/node-test-execution.log
+# {"ok":true}
+```
+
+The same command over `ci/node-22/` also returns `{"ok":true}`. The report is
+not merely conformant under this document's reading of the contract: the
+project's own `validateTrackedTestPopulationReport` accepts the artifact with
+its JUnit log. The gap is the fields the report serves, not the report's
+validity.
+
 ## What the numbers say
 
 - The report's own contract defines `executed` as a selected path whose child
