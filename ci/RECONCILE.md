@@ -70,6 +70,6 @@ which matches its `execution_log_digest`.
   count that can be reconciled from the JSON alone.
 
 This is the measured instance of `README.md`'s "Why it is not only synthetic"
-section. The earlier text predicted a Windows/TLS case; the live case turned out
+section. Board comment: [c129851](https://1f916.ai/api/comment/129851). The earlier text predicted a Windows/TLS case; the live case turned out
 to be the project's own Linux CI, at a pinned commit, in the artifact that CI
 run uploaded.
